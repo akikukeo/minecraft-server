@@ -1,58 +1,54 @@
-[13:47:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.1+12-LTS-29; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[13:47:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) for Minecraft 1.21.1
-[13:47:58] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[13:47:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:47:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[13:48:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:48:07] [ServerMain/INFO]: Loaded 1290 recipes
-[13:48:07] [ServerMain/INFO]: Loaded 1399 advancements
-[13:48:08] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[13:48:08] [Server thread/INFO]: Loading properties
-[13:48:08] [Server thread/INFO]: This server is running Paper version 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[13:48:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:48:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:48:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:48:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[13:48:10] [Server thread/INFO]: Default game type: SURVIVAL
-[13:48:10] [Server thread/INFO]: Generating keypair
-[13:48:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:48:10] [Server thread/INFO]: Using default channel type
-[13:48:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:48:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:48:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:48:11] [Server thread/INFO]: Preparing level "world"
-[13:48:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:48:12] [Server thread/INFO]: Time elapsed: 1048 ms
-[13:48:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:48:12] [Server thread/INFO]: Time elapsed: 148 ms
-[13:48:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:48:12] [Server thread/INFO]: Time elapsed: 178 ms
-[13:48:12] [Server thread/INFO]: [spark] Starting background profiler...
-[13:48:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[13:48:13] [Server thread/INFO]: Done preparing level "world" (1.985s)
-[13:48:13] [Server thread/INFO]: Running delayed init tasks
-[13:48:13] [Server thread/INFO]: Done (15.981s)! For help, type "help"
-[13:48:13] [Server thread/INFO]: Timings Reset
-[13:48:14] [Server thread/INFO]: Stopping the server
-[13:48:14] [Server thread/INFO]: Stopping server
-[13:48:14] [Server thread/INFO]: Saving players
-[13:48:14] [Server thread/INFO]: Saving worlds
-[13:48:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.33s
-[13:48:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:48:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:48:15] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.37s
-[13:48:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:48:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:48:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:48:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:48:15] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
-[13:48:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:48:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:48:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:48:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:21:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.1+12-LTS-29; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[14:21:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) for Minecraft 1.21.1
+[14:21:58] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[14:21:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:21:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[14:22:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:22:14] [ServerMain/INFO]: Loaded 1290 recipes
+[14:22:14] [ServerMain/INFO]: Loaded 1399 advancements
+[14:22:17] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:22:17] [Server thread/INFO]: Loading properties
+[14:22:17] [AWT-EventQueue-0/WARN]: Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException: Cannot invoke "org.bukkit.Server.getTPS()" because "org.bukkit.Bukkit.server" is null
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at org.bukkit.Bukkit.getTPS(Bukkit.java:2385)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at com.destroystokyo.paper.gui.RAMDetails.update(RAMDetails.java:62)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at com.destroystokyo.paper.gui.GuiStatsComponent.lambda$new$0(GuiStatsComponent.java:27)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[14:22:17] [Server thread/INFO]: This server is running Paper version 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:22:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:22:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:22:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:22:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
+[14:22:22] [Server thread/INFO]: Default game type: SURVIVAL
+[14:22:22] [Server thread/INFO]: Generating keypair
+[14:22:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:22:22] [Server thread/INFO]: Using default channel type
+[14:22:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:22:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:22:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:22:22] [Server thread/INFO]: Preparing level "world"
+[14:22:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:22:25] [Server thread/INFO]: Time elapsed: 2203 ms
+[14:22:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:22:26] [Server thread/INFO]: Time elapsed: 413 ms
+[14:22:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:22:27] [Server thread/INFO]: Time elapsed: 1526 ms
+[14:22:27] [Server thread/INFO]: [spark] Starting background profiler...
+[14:22:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[14:22:28] [Server thread/INFO]: Done preparing level "world" (5.671s)
+[14:22:28] [Server thread/INFO]: Running delayed init tasks
+[14:22:28] [Server thread/INFO]: Done (33.680s)! For help, type "help"
+[14:22:28] [Server thread/INFO]: Timings Reset
