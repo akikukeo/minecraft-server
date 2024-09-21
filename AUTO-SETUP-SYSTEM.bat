@@ -16,6 +16,7 @@ curl -L -o %ZIP_FILE% %GITHUB_URL%
 ::  ダウンロードが成功したかを確認
 if not exist %ZIP_FILE% (
     echo Download failed. Exiting.
+    pause
     exit /b 1
 )
 
@@ -26,6 +27,7 @@ tar -xf %ZIP_FILE%
 ::  解凍が成功したかを確認
 if not exist %EXTRACT_DIR% (
     echo Extraction failed. Exiting.
+    pause
     exit /b 1
 )
 
