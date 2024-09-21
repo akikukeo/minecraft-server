@@ -1,10 +1,7 @@
 @echo off
 cd ../Servers/PaperMC
 title Paper-run.bat
-
-for /f "tokens=1,* delims==" %%a in (config.txt) do (
-    set %%a=%%b
-)
+echo %java_Xms_M_re%
 
 pause 
 
