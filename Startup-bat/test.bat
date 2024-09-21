@@ -1,1 +1,0 @@
-call Paper-run_1024m.bat
