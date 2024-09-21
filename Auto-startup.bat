@@ -10,7 +10,8 @@ for /f "tokens=1,2 delims==" %%a in (config.txt) do (
 
 echo %cd%
 echo %java_Xms_M%
-set java_Xms_M_re=-Xms1024M -Xmx1024M -jar paper-1.21.1-85.jar
+set java_Xms_M_re=-Xms%java_Xms_M%M -Xmx%java_Xms_M%M -jar paper-1.21.1-85.jar
+
 echo %java_Xms_M_re%
 
 pause
