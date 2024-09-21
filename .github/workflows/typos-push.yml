@@ -1,5 +1,5 @@
 name: Spell Check with Typos
-on: [push_request]
+on: [push]
 
 jobs:
   run:
