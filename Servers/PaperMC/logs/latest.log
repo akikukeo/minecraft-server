@@ -52,3 +52,26 @@
 [14:22:28] [Server thread/INFO]: Running delayed init tasks
 [14:22:28] [Server thread/INFO]: Done (33.680s)! For help, type "help"
 [14:22:28] [Server thread/INFO]: Timings Reset
+[14:29:06] [Server thread/INFO]: Stopping the server
+[14:29:06] [Server thread/INFO]: Stopping server
+[14:29:06] [Server thread/INFO]: Saving players
+[14:29:07] [Server thread/INFO]: Saving worlds
+[14:29:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[14:29:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:29:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:29:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[14:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:29:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
