@@ -12,10 +12,6 @@ echo %cd%
 echo %java_Xms_M%
 set java_Xms_M_re=-Xms%java_Xms_M%M -Xmx%java_Xms_M%M -jar paper-1.21.1-85.jar
 
-echo %java_Xms_M_re%
-
-pause
-
 call Paper-run.bat
 
 pause
