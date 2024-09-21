@@ -1,6 +1,6 @@
 @echo off
 title Auto-startup.bat
-setlocal
+setlocal enabledelayedexpansion
 
 cd ./Startup-bat
 :: config 取得
