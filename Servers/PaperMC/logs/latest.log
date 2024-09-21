@@ -1,98 +1,54 @@
-[12:15:07] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.1+12-LTS-29; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[12:15:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) for Minecraft 1.21.1
-[12:15:07] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[12:15:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:15:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[12:15:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:15:21] [ServerMain/INFO]: Loaded 1290 recipes
-[12:15:21] [ServerMain/INFO]: Loaded 1399 advancements
-[12:15:23] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[12:15:23] [Server thread/INFO]: Loading properties
-[12:15:24] [Server thread/INFO]: This server is running Paper version 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[12:15:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:15:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:15:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:15:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[12:15:29] [Server thread/INFO]: Default game type: SURVIVAL
-[12:15:29] [Server thread/INFO]: Generating keypair
-[12:15:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:15:29] [Server thread/INFO]: Using default channel type
-[12:15:29] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:15:29] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:15:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:15:29] [Server thread/INFO]: Preparing level "world"
-[12:15:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:15:32] [Server thread/INFO]: Time elapsed: 1520 ms
-[12:15:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:15:32] [Server thread/INFO]: Time elapsed: 191 ms
-[12:15:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:15:32] [Server thread/INFO]: Time elapsed: 99 ms
-[12:15:32] [Server thread/INFO]: [spark] Starting background profiler...
-[12:15:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[12:15:32] [Server thread/INFO]: Done preparing level "world" (3.310s)
-[12:15:32] [Server thread/INFO]: Running delayed init tasks
-[12:15:32] [Server thread/INFO]: Done (26.917s)! For help, type "help"
-[12:15:32] [Server thread/INFO]: Timings Reset
-[12:16:01] [User Authenticator #0/INFO]: UUID of player akikukeo is dc516a0c-3ebf-4f0c-ae6c-426f61b4dadf
-[12:16:03] [Server thread/INFO]: akikukeo joined the game
-[12:16:03] [Server thread/INFO]: akikukeo[/[0:0:0:0:0:0:0:1]:52037] logged in with entity id 22 at ([world]-34.65746815748374, 86.91059963911174, 191.8710267248292)
-[12:16:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3159ms or 63 ticks behind
-[12:18:31] [User Authenticator #1/INFO]: UUID of player rame8 is 27a0f60c-bfa0-43ce-911f-b906cf57ff6d
-[12:18:33] [Server thread/INFO]: rame8 joined the game
-[12:18:33] [Server thread/INFO]: rame8[/[0:0:0:0:0:0:0:1]:52613] logged in with entity id 777 at ([world]-85.5, 68.0, -25.5)
-[12:18:46] [Server thread/INFO]: akikukeo issued server command: /tp akikukeo rame8
-[12:18:46] [Server thread/INFO]: [akikukeo: Teleported akikukeo to rame8]
-[12:20:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7791ms or 155 ticks behind
-[12:20:48] [Server thread/WARN]: rame8 moved too quickly! -9.701046245948064,-10.0,-0.8527961737355128
-[12:21:07] [Server thread/INFO]: rame8 drowned
-[12:21:08] [Server thread/INFO]: akikukeo issued server command: /tp akikukeo rame8
-[12:21:08] [Server thread/INFO]: [akikukeo: Teleported akikukeo to rame8]
-[12:21:18] [Server thread/INFO]: akikukeo issued server command: /tp akikukeo rame8
-[12:21:18] [Server thread/INFO]: [akikukeo: Teleported akikukeo to rame8]
-[12:21:20] [Server thread/INFO]: akikukeo issued server command: /gamemode spectator
-[12:21:20] [Server thread/INFO]: [akikukeo: Set own game mode to Spectator Mode]
-[12:21:32] [Server thread/INFO]: rame8 has made the advancement [Monster Hunter]
-[12:22:42] [Server thread/INFO]: akikukeo issued server command: /gamemode creative
-[12:22:42] [Server thread/INFO]: [akikukeo: Set own game mode to Creative Mode]
-[12:23:06] [Server thread/INFO]: rame8 was shot by Skeleton
-[12:23:37] [Server thread/INFO]: akikukeo issued server command: /effect give @a minecraft:health_boost infinite 50 false
-[12:23:37] [Server thread/INFO]: [akikukeo: Applied effect Health Boost to 2 targets]
-[12:23:40] [Server thread/INFO]: akikukeo issued server command: /gamemode survival
-[12:23:40] [Server thread/INFO]: [akikukeo: Set own game mode to Survival Mode]
-[12:23:48] [Server thread/INFO]: akikukeo issued server command: /gamemode creative
-[12:23:48] [Server thread/INFO]: [akikukeo: Set own game mode to Creative Mode]
-[12:24:09] [Server thread/INFO]: akikukeo issued server command: /give @a minecraft:enchanted_golden_apple 64
-[12:24:09] [Server thread/INFO]: [akikukeo: Gave 64 [Enchanted Golden Apple] to 2]
-[12:24:19] [Server thread/INFO]: akikukeo issued server command: /gamemode survival
-[12:24:19] [Server thread/INFO]: [akikukeo: Set own game mode to Survival Mode]
-[12:24:48] [Server thread/INFO]: akikukeo has made the advancement [Monster Hunter]
-[12:27:59] [Server thread/INFO]: [Not Secure] [Server] サーバー止めます...
-[12:28:04] [Async Chat Thread - #3/INFO]: <rame8> hai
-[12:28:06] [Server thread/INFO]: akikukeo issued server command: /stop
-[12:28:06] [Server thread/INFO]: [akikukeo: Stopping the server]
-[12:28:06] [Server thread/INFO]: Stopping server
-[12:28:06] [Server thread/INFO]: Saving players
-[12:28:07] [Server thread/INFO]: akikukeo lost connection: Server closed
-[12:28:07] [Server thread/INFO]: akikukeo left the game
-[12:28:07] [Server thread/INFO]: rame8 lost connection: Server closed
-[12:28:07] [Server thread/INFO]: rame8 left the game
-[12:28:07] [Server thread/INFO]: Saving worlds
-[12:28:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:28:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:28:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:28:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Saved 812 block chunks, 299 entity chunks, 0 poi chunks in world 'world' in 1.43s
-[12:28:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[12:28:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:28:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[12:28:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:28:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:28:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:28:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:21:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.1+12-LTS-29; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[14:21:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) for Minecraft 1.21.1
+[14:21:58] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[14:21:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:21:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[14:22:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:22:14] [ServerMain/INFO]: Loaded 1290 recipes
+[14:22:14] [ServerMain/INFO]: Loaded 1399 advancements
+[14:22:17] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:22:17] [Server thread/INFO]: Loading properties
+[14:22:17] [AWT-EventQueue-0/WARN]: Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException: Cannot invoke "org.bukkit.Server.getTPS()" because "org.bukkit.Bukkit.server" is null
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at org.bukkit.Bukkit.getTPS(Bukkit.java:2385)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at com.destroystokyo.paper.gui.RAMDetails.update(RAMDetails.java:62)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at com.destroystokyo.paper.gui.GuiStatsComponent.lambda$new$0(GuiStatsComponent.java:27)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+[14:22:17] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[14:22:17] [Server thread/INFO]: This server is running Paper version 1.21.1-85-master@c5a1066 (2024-09-19T14:47:47Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:22:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:22:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:22:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:22:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
+[14:22:22] [Server thread/INFO]: Default game type: SURVIVAL
+[14:22:22] [Server thread/INFO]: Generating keypair
+[14:22:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:22:22] [Server thread/INFO]: Using default channel type
+[14:22:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:22:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:22:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:22:22] [Server thread/INFO]: Preparing level "world"
+[14:22:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:22:25] [Server thread/INFO]: Time elapsed: 2203 ms
+[14:22:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:22:26] [Server thread/INFO]: Time elapsed: 413 ms
+[14:22:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:22:27] [Server thread/INFO]: Time elapsed: 1526 ms
+[14:22:27] [Server thread/INFO]: [spark] Starting background profiler...
+[14:22:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[14:22:28] [Server thread/INFO]: Done preparing level "world" (5.671s)
+[14:22:28] [Server thread/INFO]: Running delayed init tasks
+[14:22:28] [Server thread/INFO]: Done (33.680s)! For help, type "help"
+[14:22:28] [Server thread/INFO]: Timings Reset
