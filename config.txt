@@ -1,0 +1,2 @@
+[Server-startup-settings]
+java_Xms_M = 1024
