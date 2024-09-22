@@ -1,15 +1,15 @@
 @echo off
 setlocal enabledelayedexpansion
 
-@REM GitHubƒŠƒ|ƒWƒgƒŠ‚Ìî•ñ‚ðÝ’è
+@REM GitHubãƒªãƒã‚¸ãƒˆãƒªã®æƒ…å ±ã‚’è¨­å®š
     set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/heads/main.zip
     set ZIP_FILE=.\minecraft-server.zip
     set EXTRACT_DIR=.\minecraft-server-main
 
 
 
-@REM.tmp ‚É‘‚«ž‚Þ
-    echo !LOG_R! tmpƒtƒ@ƒCƒ‹‚ð‘‚«ž‚Ý’†...
+@REM.tmp ã«æ›¸ãè¾¼ã‚€
+    echo !LOG_R! tmpãƒ•ã‚¡ã‚¤ãƒ«ã‚’æ›¸ãè¾¼ã¿ä¸­...
     (
         echo [download-github.bat]
         echo GITHUB_URL=%GITHUB_URL%
@@ -18,10 +18,10 @@ setlocal enabledelayedexpansion
     ) > ./.temp/test.tmp
 
     if errorlevel 1 (
-        echo !ERROR_R! ‘‚«ž‚ß‚Ü‚¹‚ñ‚Å‚µ‚½Bˆ—‚ðI—¹‚µ‚Ü‚·B
+        echo !ERROR_R! æ›¸ãè¾¼ã‚ã¾ã›ã‚“ã§ã—ãŸã€‚å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚
         exit /b 1
     ) else (
-        echo !LOG_R! ‘‚«ž‚Ý‚ªŠ®—¹‚µ‚Ü‚µ‚½B
+        echo !LOG_R! æ›¸ãè¾¼ã¿ãŒå®Œäº†ã—ã¾ã—ãŸã€‚
     )
 
 endlocal
