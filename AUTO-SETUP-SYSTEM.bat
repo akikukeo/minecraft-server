@@ -3,5 +3,6 @@ setlocal
 cd Setup-bat
 
 call set.bat
-:: testecho
+:: test echo
+echo %GITHUB_URL%
 pause
