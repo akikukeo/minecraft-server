@@ -11,7 +11,7 @@ set EXTRACT_DIR=.\minecraft-server-main
     echo GITHUB_URL=%GITHUB_URL%
     echo ZIP_FILE=%ZIP_FILE%
     echo EXTRACT_DIR=%EXTRACT_DIR%
-) > config.txt
+) > config.ini
 
 echo config.txt に設定を書き込みました。
 endlocal
