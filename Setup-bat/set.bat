@@ -1,8 +1,28 @@
 @echo off
+setlocal enabledelayedexpansion
 
-::  GitHubãƒªãƒã‚¸ãƒˆãƒªã®æƒ…å ±ã‚’è¨­å®š
-set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/heads/main.zip
-set ZIP_FILE=.\minecraft-server.zip
-set EXTRACT_DIR=.\minecraft-server-main
+@REM GitHubƒŠƒ|ƒWƒgƒŠ‚Ìî•ñ‚ğİ’è
+    set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/heads/main.zip
+    set ZIP_FILE=.\minecraft-server.zip
+    set EXTRACT_DIR=.\minecraft-server-main
 
+
+
+@REM.tmp ‚É‘‚«‚Ş
+    echo !LOG![LOG]!RESET! !echo7!
+    (
+        echo [download-github.bat]
+        echo GITHUB_URL=%GITHUB_URL%
+        echo ZIP_FILE=%ZIP_FILE%
+        echo EXTRACT_DIR=%EXTRACT_DIR%
+    ) > ./.temp/test.tmp
+
+    if errorlevel 1 (
+        echo !ERROR![ERROR]!RESET!‘‚«‚ß‚Ü‚¹‚ñ‚Å‚µ‚½B
+        exit /b 1
+    ) else (
+        echo !LOG![LOG]!RESET!‘‚«‚İ‚ªŠ®—¹‚µ‚Ü‚µ‚½B
+    )
+
+endlocal
 exit /b 0

@@ -1,34 +1,34 @@
 @echo off
 setlocal
 
-::  ã‚«ãƒ¬ãƒ³ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¡¨ç¤º
-echo Current directory: %CD%
+@REM ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ğ•\¦
+    echo Current directory: %CD%
 
-::  curlã‚’ä½¿ã£ã¦ãƒªãƒã‚¸ãƒˆãƒªã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
-echo Downloading repository...
-curl -L -o %ZIP_FILE% %GITHUB_URL%
+@REM curl‚ğg‚Á‚ÄƒŠƒ|ƒWƒgƒŠ‚ğƒ_ƒEƒ“ƒ[ƒh
+    echo Downloading repository...
+    curl -L -o %ZIP_FILE% %GITHUB_URL%
 
-::  ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒæˆåŠŸã—ãŸã‹ã‚’ç¢ºèª
-if not exist %ZIP_FILE% (
-    echo Download failed. Exiting.
-    pause
-    exit /b 1
-)
+@REM ƒ_ƒEƒ“ƒ[ƒh‚ª¬Œ÷‚µ‚½‚©‚ğŠm”F
+    if not exist %ZIP_FILE% (
+        echo Download failed. Exiting.
+        pause
+        exit /b 1
+    )
 
-::  tarã‚’ä½¿ã£ã¦ZIPãƒ•ã‚¡ã‚¤ãƒ«ã‚’è§£å‡
-echo Extracting ZIP file...
-tar -xf %ZIP_FILE%
+@REM tar‚ğg‚Á‚ÄZIPƒtƒ@ƒCƒ‹‚ğ‰ğ“€
+    echo Extracting ZIP file...
+    tar -xf %ZIP_FILE%
 
-::  è§£å‡ãŒæˆåŠŸã—ãŸã‹ã‚’ç¢ºèª
-if not exist %EXTRACT_DIR% (
-    echo Extraction failed. Exiting.
-    pause
-    exit /b 1
-)
+@REM ‰ğ“€‚ª¬Œ÷‚µ‚½‚©‚ğŠm”F
+    if not exist %EXTRACT_DIR% (
+        echo Extraction failed. Exiting.
+        pause
+        exit /b 1
+    )
 
-::  ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸZIPãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤
-echo Cleaning up...
-del %ZIP_FILE%
+@REM ƒ_ƒEƒ“ƒ[ƒh‚µ‚½ZIPƒtƒ@ƒCƒ‹‚ğíœ
+    echo Cleaning up...
+    del %ZIP_FILE%
 
 echo Done.
 pause

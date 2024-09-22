@@ -1,0 +1,4 @@
+[download-github.bat]
+GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/heads/main.zip
+ZIP_FILE=.\minecraft-server.zip
+EXTRACT_DIR=.\minecraft-server-main
