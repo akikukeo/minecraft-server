@@ -9,7 +9,7 @@ setlocal enabledelayedexpansion
 
 
 @REM.tmp に書き込む
-    echo !LOG![LOG]!RESET! tmpファイルを書き込み中...
+    echo !LOG_R! tmpファイルを書き込み中...
     (
         echo [download-github.bat]
         echo GITHUB_URL=%GITHUB_URL%
@@ -18,10 +18,10 @@ setlocal enabledelayedexpansion
     ) > ./.temp/test.tmp
 
     if errorlevel 1 (
-        echo !ERROR![ERROR]!RESET! 書き込めませんでした。
+        echo !ERROR_R! 書き込めませんでした。処理を終了します。
         exit /b 1
     ) else (
-        echo !LOG![LOG]!RESET! 書き込みが完了しました。
+        echo !LOG_R! 書き込みが完了しました。
     )
 
 endlocal
