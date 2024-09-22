@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set wget_log_pass=
+set wget_o_pass=wget_log
 
 @REM config.ini を読み込む
     @REM config.ini を読み込む
@@ -9,12 +9,11 @@ set wget_log_pass=
         set %%a=%%b
     )
 
-@REM カレントディレクトリを表示
-    echo Current directory: %CD%
+cd install
 
-pause
 @REM wgetを使ってリポジトリをダウンロード
-
+    wget -o %wget_o_pass% !GITHUB_URL!
+    pause
     
 @REM ダウンロードが成功したかを確認
     if not exist %ZIP_FILE% (

@@ -18,7 +18,7 @@ setlocal enabledelayedexpansion
     ) > ./.temp/test.tmp
 
     if errorlevel 1 (
-        echo !ERROR![ERROR]!RESET! 書き込めませんでした。
+        echo !ERROR![ERROR]!RESET! 書き込めませんでした。処理を終了します。
         exit /b 1
     ) else (
         echo !LOG![LOG]!RESET! 書き込みが完了しました。

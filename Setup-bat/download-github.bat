@@ -1,8 +1,15 @@
 @echo off
 setlocal
 
-@REM カレントディレクトリを表示
-    echo Current directory: %CD%
+@REM config.ini を読み込む
+    @REM config.ini を読み込む
+    for /f "tokens=1,2 delims==" %%a in (config.ini) do (
+        set %%a=%%b
+    )
+
+echo %GITHUB_URL%
+cd install
+pause
 
 @REM curlを使ってリポジトリをダウンロード
     echo Downloading repository...
@@ -10,10 +17,14 @@ setlocal
 
 @REM ダウンロードが成功したかを確認
     if not exist %ZIP_FILE% (
-        echo Download failed. Exiting.
+        echo ダウンロードに失敗しました。処理を終了します。
         pause
         exit /b 1
+    )  else (
+            echo %LOG%[LOG]%RESET% ダウンロードが完了しました。
     )
+
+pause
 
 @REM tarを使ってZIPファイルを解凍
     echo Extracting ZIP file...
