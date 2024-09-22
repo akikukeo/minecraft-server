@@ -1,13 +1,21 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
+
+set wget_log_pass=
+
+@REM config.ini を読み込む
+    @REM config.ini を読み込む
+    for /f "tokens=1,2 delims==" %%a in (config.ini) do (
+        set %%a=%%b
+    )
 
 @REM カレントディレクトリを表示
     echo Current directory: %CD%
 
-@REM curlを使ってリポジトリをダウンロード
-    echo Downloading repository...
-    curl -L -o %ZIP_FILE% %GITHUB_URL%
+pause
+@REM wgetを使ってリポジトリをダウンロード
 
+    
 @REM ダウンロードが成功したかを確認
     if not exist %ZIP_FILE% (
         echo Download failed. Exiting.
