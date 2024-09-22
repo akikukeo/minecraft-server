@@ -1,11 +1,11 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
+
 cd Setup-bat
 
 call set.bat
 :: test echo
 
-set test=aaa
-echo %test%
 echo %GITHUB_URL%
+endlocal
 pause
