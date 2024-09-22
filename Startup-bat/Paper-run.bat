@@ -1,6 +1,5 @@
 @echo off
 setlocal enabledelayedexpansion
-chcp 932
 
 :: config 取得
 for /f "tokens=1,2 delims==" %%a in (config.ini) do (
