@@ -16,9 +16,9 @@ setlocal enabledelayedexpansion
 @REM callする
     call set.bat
     @REM tmp確認用待機(削除する)
-        echo !LOG![LOG]!RESET! !echo1!
+        echo !LOG![LOG]!RESET! 10 秒待機します...
         timeout /t 10 /nobreak
-        echo !LOG![LOG]!RESET! !echo2!
+        echo !LOG![LOG]!RESET! 時間経過
 
     call temp-del.bat
 
