@@ -1,5 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
+title 自動ダウンロードシステム実行中...
 
 @REM config.ini を読み込む
     @REM config.ini を読み込む
@@ -15,30 +16,26 @@ cd install
 
 @REM ダウンロードが成功したかを確認
     if not exist !ZIP_FILE! (
-        echo !ERROR![ERROR]!RESET! ダウンロードに失敗しました。処理を終了します。
-        pause
+        echo !ERROR_R! ダウンロードに失敗しました。処理を終了します。
         exit /b 1
     )  else (
-            echo !LOG![LOG]!RESET! ダウンロードが完了しました。
+            echo !LOG_R! ダウンロードが完了しました。
     )
 
-
 @REM tarを使ってZIPファイルを解凍
-    echo !LOG![LOG]!RESET! ZIPを展開しています...
+    echo !LOG_R! ZIPを展開しています...
     tar -xf !ZIP_FILE!
 
 @REM 解凍が成功したかを確認
     if not exist !EXTRACT_DIR! (
-        echo !LOG![LOG]!RESET! 展開に失敗しました。処理を終了します。
-        pause
+        echo !LOG_R! 展開に失敗しました。処理を終了します。
         exit /b 1
     )
 
 @REM ダウンロードしたZIPファイルを削除
-    echo !LOG![LOG]!RESET! ZIPを削除しています...
+    echo !LOG_R! ZIPを削除しています...
     del !ZIP_FILE!
 
-echo !LOG![LOG]!RESET! すべてのダウンロードが完了しました。
-pause
+echo !LOG_R! すべてのダウンロードが完了しました。
 endlocal
 exit /b 0

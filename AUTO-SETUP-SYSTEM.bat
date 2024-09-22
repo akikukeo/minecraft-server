@@ -1,6 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
-
+set title=自動セットアップシステム実行中...
+title %title%
 
 @REM config.ini を読み込む
     cd Setup-bat
@@ -9,19 +10,18 @@ setlocal enabledelayedexpansion
         set %%a=%%b
     )
 
-    @REM @REM RESET の確認
-    @REM echo !RED!This is a test message!RESET!
-    @REM cd
 
-@REM callする
-    call set.bat
-    @REM tmp確認用待機(削除する)
-        echo !LOG![LOG]!RESET! 10 秒待機します...
-        timeout /t 10 /nobreak
-        echo !LOG![LOG]!RESET! 時間経過
 
-    call temp-del.bat
-
+@REM ダウンロードする
+    call download-github.bat
+    if errorlevel 1 (
+        title %title%
+        echo !ERROR_R! 自動ダウンロードシステムの失敗を検知しました。処理を終了します。
+    )
+    if errorlevel 0 (
+        title %title%
+        echo !SUCCESS_R! 自動ダウンロードシステムの成功を検知しました。処理を終了します。
+    )
 
 endlocal
 pause

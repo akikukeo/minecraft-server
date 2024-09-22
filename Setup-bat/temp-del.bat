@@ -22,20 +22,20 @@ setlocal
 
     @REM.tmp ファイルが存在しない場合、エラーを表示
         if %FILE_COUNT%==0 (
-            echo !ERROR![ERROR]!RESET! 該当ファイルが存在しません。処理を終了します。
+            echo !ERROR_R! 該当ファイルが存在しません。処理を終了します。
             exit /b 1
         )
 
     @REM.tmp ファイルを削除
-        echo !LOG![LOG]!RESET! .tmp ファイルを削除しています...
+        echo !LOG_R! .tmp ファイルを削除しています...
         del /q "%FILE_PATTERN%"
 
     @REM 削除結果を表示
         if errorlevel 1 (
-            echo !ERROR![ERROR]!RESET! ファイルの削除中にエラーが発生しました。
+            echo !ERROR_R! ファイルの削除中にエラーが発生しました。
             exit /b 1
         ) else (
-            echo !LOG![LOG]!RESET! すべての削除に成功しました。
+            echo !LOG_R! すべての削除に成功しました。
         )
 
 
