@@ -14,7 +14,6 @@ cd install
     curl -L -o !ZIP_FILE! !GITHUB_URL!
 
 @REM ダウンロードが成功したかを確認
-pause
     if not exist !ZIP_FILE! (
         echo !ERROR![ERROR]!RESET! ダウンロードに失敗しました。処理を終了します。
         pause
@@ -23,24 +22,23 @@ pause
             echo !LOG![LOG]!RESET! ダウンロードが完了しました。
     )
 
-pause
 
 @REM tarを使ってZIPファイルを解凍
-    echo Extracting ZIP file...
+    echo !LOG![LOG]!RESET! ZIPを展開しています...
     tar -xf !ZIP_FILE!
 
 @REM 解凍が成功したかを確認
     if not exist !EXTRACT_DIR! (
-        echo Extraction failed. Exiting.
+        echo !LOG![LOG]!RESET! 展開に失敗しました。処理を終了します。
         pause
         exit /b 1
     )
 
 @REM ダウンロードしたZIPファイルを削除
-    echo Cleaning up...
+    echo !LOG![LOG]!RESET! ZIPを削除しています...
     del !ZIP_FILE!
 
-echo Done.
+echo !LOG![LOG]!RESET! すべてのダウンロードが完了しました。
 pause
 endlocal
 exit /b 0
