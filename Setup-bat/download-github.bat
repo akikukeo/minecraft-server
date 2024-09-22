@@ -14,8 +14,9 @@ cd install
     curl -L -o !ZIP_FILE! !GITHUB_URL!
 
 @REM ダウンロードが成功したかを確認
+pause
     if not exist !ZIP_FILE! (
-        echo ダウンロードに失敗しました。処理を終了します。
+        echo !ERROR![ERROR]!RESET! ダウンロードに失敗しました。処理を終了します。
         pause
         exit /b 1
     )  else (
