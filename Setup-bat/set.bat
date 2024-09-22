@@ -5,3 +5,6 @@ setlocal
 set "GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/heads/main.zip"
 set "ZIP_FILE=.\minecraft-server.zip"
 set "EXTRACT_DIR=.\minecraft-server-main"
+
+endlocal
+exit /b 0
