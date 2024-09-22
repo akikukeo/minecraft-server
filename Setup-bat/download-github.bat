@@ -1,41 +1,41 @@
 @echo off
 setlocal enabledelayedexpansion
-title Ž©“®ƒ_ƒEƒ“ƒ[ƒhƒVƒXƒeƒ€ŽÀs’†...
+title è‡ªå‹•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚·ã‚¹ãƒ†ãƒ å®Ÿè¡Œä¸­...
 
-@REM config.ini ‚ð“Ç‚Ýž‚Þ
-    @REM config.ini ‚ð“Ç‚Ýž‚Þ
+@REM config.ini ã‚’èª­ã¿è¾¼ã‚€
+    @REM config.ini ã‚’èª­ã¿è¾¼ã‚€
     for /f "tokens=1,2 delims==" %%a in (config.ini) do (
         set %%a=%%b
     )
 
 cd install
 
-@REM curl‚ðŽg‚Á‚ÄƒŠƒ|ƒWƒgƒŠ‚ðƒ_ƒEƒ“ƒ[ƒh
+@REM curlã‚’ä½¿ã£ã¦ãƒªãƒã‚¸ãƒˆãƒªã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
     echo Downloading repository...
     curl -L -o !ZIP_FILE! !GITHUB_URL!
 
-@REM ƒ_ƒEƒ“ƒ[ƒh‚ª¬Œ÷‚µ‚½‚©‚ðŠm”F
+@REM ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒæˆåŠŸã—ãŸã‹ã‚’ç¢ºèª
     if not exist !ZIP_FILE! (
-        echo !ERROR_R! ƒ_ƒEƒ“ƒ[ƒh‚ÉŽ¸”s‚µ‚Ü‚µ‚½Bˆ—‚ðI—¹‚µ‚Ü‚·B
+        echo !ERROR_R! ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã«å¤±æ•—ã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚
         exit /b 1
     )  else (
-            echo !LOG_R! ƒ_ƒEƒ“ƒ[ƒh‚ªŠ®—¹‚µ‚Ü‚µ‚½B
+            echo !LOG_R! ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒå®Œäº†ã—ã¾ã—ãŸã€‚
     )
 
-@REM tar‚ðŽg‚Á‚ÄZIPƒtƒ@ƒCƒ‹‚ð‰ð“€
-    echo !LOG_R! ZIP‚ð“WŠJ‚µ‚Ä‚¢‚Ü‚·...
+@REM tarã‚’ä½¿ã£ã¦ZIPãƒ•ã‚¡ã‚¤ãƒ«ã‚’è§£å‡
+    echo !LOG_R! ZIPã‚’å±•é–‹ã—ã¦ã„ã¾ã™...
     tar -xf !ZIP_FILE!
 
-@REM ‰ð“€‚ª¬Œ÷‚µ‚½‚©‚ðŠm”F
+@REM è§£å‡ãŒæˆåŠŸã—ãŸã‹ã‚’ç¢ºèª
     if not exist !EXTRACT_DIR! (
-        echo !LOG_R! “WŠJ‚ÉŽ¸”s‚µ‚Ü‚µ‚½Bˆ—‚ðI—¹‚µ‚Ü‚·B
+        echo !LOG_R! å±•é–‹ã«å¤±æ•—ã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚
         exit /b 1
     )
 
-@REM ƒ_ƒEƒ“ƒ[ƒh‚µ‚½ZIPƒtƒ@ƒCƒ‹‚ðíœ
-    echo !LOG_R! ZIP‚ðíœ‚µ‚Ä‚¢‚Ü‚·...
+@REM ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸZIPãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤
+    echo !LOG_R! ZIPã‚’å‰Šé™¤ã—ã¦ã„ã¾ã™...
     del !ZIP_FILE!
 
-echo !LOG_R! ‚·‚×‚Ä‚Ìƒ_ƒEƒ“ƒ[ƒh‚ªŠ®—¹‚µ‚Ü‚µ‚½B
+echo !LOG_R! ã™ã¹ã¦ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒå®Œäº†ã—ã¾ã—ãŸã€‚
 endlocal
 exit /b 0

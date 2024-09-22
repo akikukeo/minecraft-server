@@ -3,37 +3,37 @@ setlocal enabledelayedexpansion
 
 set wget_o_pass=wget_log
 
-@REM config.ini ‚ğ“Ç‚İ‚Ş
-    @REM config.ini ‚ğ“Ç‚İ‚Ş
+@REM config.ini ã‚’èª­ã¿è¾¼ã‚€
+    @REM config.ini ã‚’èª­ã¿è¾¼ã‚€
     for /f "tokens=1,2 delims==" %%a in (config.ini) do (
         set %%a=%%b
     )
 
 cd install
 
-@REM wget‚ğg‚Á‚ÄƒŠƒ|ƒWƒgƒŠ‚ğƒ_ƒEƒ“ƒ[ƒh
+@REM wgetã‚’ä½¿ã£ã¦ãƒªãƒã‚¸ãƒˆãƒªã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
     wget -o %wget_o_pass% !GITHUB_URL!
     pause
     
-@REM ƒ_ƒEƒ“ƒ[ƒh‚ª¬Œ÷‚µ‚½‚©‚ğŠm”F
+@REM ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒæˆåŠŸã—ãŸã‹ã‚’ç¢ºèª
     if not exist %ZIP_FILE% (
         echo Download failed. Exiting.
         pause
         exit /b 1
     )
 
-@REM tar‚ğg‚Á‚ÄZIPƒtƒ@ƒCƒ‹‚ğ‰ğ“€
+@REM tarã‚’ä½¿ã£ã¦ZIPãƒ•ã‚¡ã‚¤ãƒ«ã‚’è§£å‡
     echo Extracting ZIP file...
     tar -xf %ZIP_FILE%
 
-@REM ‰ğ“€‚ª¬Œ÷‚µ‚½‚©‚ğŠm”F
+@REM è§£å‡ãŒæˆåŠŸã—ãŸã‹ã‚’ç¢ºèª
     if not exist %EXTRACT_DIR% (
         echo Extraction failed. Exiting.
         pause
         exit /b 1
     )
 
-@REM ƒ_ƒEƒ“ƒ[ƒh‚µ‚½ZIPƒtƒ@ƒCƒ‹‚ğíœ
+@REM ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸZIPãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤
     echo Cleaning up...
     del %ZIP_FILE%
 

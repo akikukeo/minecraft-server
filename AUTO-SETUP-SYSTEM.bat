@@ -1,26 +1,26 @@
 @echo off
 setlocal enabledelayedexpansion
-set title=Ž©“®ƒZƒbƒgƒAƒbƒvƒVƒXƒeƒ€ŽÀs’†...
+set title=è‡ªå‹•ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã‚·ã‚¹ãƒ†ãƒ å®Ÿè¡Œä¸­...
 title %title%
 
-@REM config.ini ‚ð“Ç‚Ýž‚Þ
+@REM config.ini ã‚’èª­ã¿è¾¼ã‚€
     cd Setup-bat
-    @REM config.ini ‚ð“Ç‚Ýž‚Þ
+    @REM config.ini ã‚’èª­ã¿è¾¼ã‚€
     for /f "tokens=1,2 delims==" %%a in (config.ini) do (
         set %%a=%%b
     )
 
 
 
-@REM ƒ_ƒEƒ“ƒ[ƒh‚·‚é
+@REM ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
     call download-github.bat
     if errorlevel 1 (
         title %title%
-        echo !ERROR_R! Ž©“®ƒ_ƒEƒ“ƒ[ƒhƒVƒXƒeƒ€‚ÌŽ¸”s‚ðŒŸ’m‚µ‚Ü‚µ‚½Bˆ—‚ðI—¹‚µ‚Ü‚·B
+        echo !ERROR_R! è‡ªå‹•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚·ã‚¹ãƒ†ãƒ ã®å¤±æ•—ã‚’æ¤œçŸ¥ã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚
     )
     if errorlevel 0 (
         title %title%
-        echo !SUCCESS_R! Ž©“®ƒ_ƒEƒ“ƒ[ƒhƒVƒXƒeƒ€‚Ì¬Œ÷‚ðŒŸ’m‚µ‚Ü‚µ‚½Bˆ—‚ðI—¹‚µ‚Ü‚·B
+        echo !SUCCESS_R! è‡ªå‹•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚·ã‚¹ãƒ†ãƒ ã®æˆåŠŸã‚’æ¤œçŸ¥ã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚
     )
 
 endlocal
