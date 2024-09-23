@@ -1,4 +1,5 @@
 @echo off
+chcp 932
 setlocal enabledelayedexpansion
 set title=自動セットアップシステム実行中...
 title %title%
