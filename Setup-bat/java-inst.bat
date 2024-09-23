@@ -11,9 +11,10 @@ title 自動ダウンロードシステム実行中...
 
 cd install
 
-@REM curlを使ってリポジトリをダウンロード
-    echo Downloading repository...
-    call jdk-21.0.3_windows-x64_bin.msi /norestart
+@REM curlを使ってjavaをダウンロード
+    curl -s !JAVA_URL! -O
+
+    call jdk-21.0.3_windows-x64_bin.exe
 
 
 @REM @REM tarを使ってZIPファイルを解凍
@@ -21,7 +22,5 @@ cd install
 @REM     tar -xf !ZIP_FILE!
 
 
-
-pause
 endlocal
 exit /b 0
