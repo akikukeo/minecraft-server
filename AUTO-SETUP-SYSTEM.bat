@@ -16,29 +16,35 @@ set EXTRACT_DIR=.\minecraft-inst-sys
     echo Downloading repository...
     curl -L -o %ZIP_FILE% %GITHUB_URL%
 
-@REM ダウンロードが成功したかを確認
-    if not exist %ZIP_FILE% (
-        echo %ERROR_R% ダウンロードに失敗しました。処理を終了します。
-        exit /b 1
-    )  else (
-            echo %LOG_R% ダウンロードが完了しました。
-    )
+@REM @REM ダウンロードが成功したかを確認
+@REM     if not exist %ZIP_FILE% (
+@REM         echo %ERROR_R% ダウンロードに失敗しました。処理を終了します。
+@REM         exit /b 1
+@REM     )  else (
+@REM             echo %LOG_R% ダウンロードが完了しました。
+@REM     )
 
 @REM tarを使ってZIPファイルを解凍
     echo %LOG_R% ZIPを展開しています...
     tar -xf %ZIP_FILE%
 
-@REM 解凍が成功したかを確認
-    if not exist %EXTRACT_DIR% (
-        echo %LOG_R% 展開に失敗しました。処理を終了します。
-        exit /b 1
-    )
+@REM @REM 解凍が成功したかを確認
+@REM     if not exist %EXTRACT_DIR% (
+@REM         echo %LOG_R% 展開に失敗しました。処理を終了します。
+@REM         exit /b 1
+@REM     )
 
-@REM ダウンロードしたZIPファイルを削除
-    echo %LOG_R% ZIPを削除しています...
-    del %ZIP_FILE%
+@REM @REM ダウンロードしたZIPファイルを削除
+@REM     echo %LOG_R% ZIPを削除しています...
+@REM     del %ZIP_FILE%
 
-echo %LOG_R% すべてのダウンロードが完了しました。
+echo すべてのダウンロードが完了しました。
+
+cd minecraft-server-inst-sys
+call AUTO-SETUP-SYSTEM.bat
+cd Setup-bat/install/minecraft-server-main
+call Auto-startup.bat
+
 endlocal
 pause
 exit /b 0
