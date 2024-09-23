@@ -1,4 +1,5 @@
 @echo off
+chcp 932
 setlocal enabledelayedexpansion
 
 :: config 取得
