@@ -35,4 +35,3 @@ title %title%
     )
 
 endlocal
-pause
