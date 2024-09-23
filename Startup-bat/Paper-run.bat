@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 chcp 932
 
-:: config å–å¾—
+:: config æ“¾
 for /f "tokens=1,2 delims==" %%a in (config.ini) do (
  set %%a=%%b
 )
@@ -10,7 +10,7 @@ for /f "tokens=1,2 delims==" %%a in (config.ini) do (
 cd ../Servers/PaperMC
 title Paper-run.bat
 
-:: ã‚µãƒ¼ãƒãƒ¼ã‚’èµ·å‹•ã™ã‚‹ã‚³ãƒãƒ³ãƒ‰
+:: ƒT[ƒo[‚ğ‹N“®‚·‚éƒRƒ}ƒ“ƒh
 java !java_Xms_M_re!
 
 endlocal

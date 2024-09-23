@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 chcp 932
 
 cd ./Startup-bat
-:: config 取得
+:: config �擾
 for /f "tokens=1,2 delims==" %%a in (config.ini) do (
  set %%a=%%b
 )
