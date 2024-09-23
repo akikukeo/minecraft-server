@@ -24,5 +24,15 @@ title %title%
         echo !SUCCESS_R! 自動ダウンロードシステムの成功を検知しました。処理を終了します。
     )
 
+    call java-inst.bat
+    if errorlevel 1 (
+        title %title%
+        echo !ERROR_R! 自動ダウンロードシステムの失敗を検知しました。処理を終了します。
+    )
+    if errorlevel 0 (
+        title %title%
+        echo !SUCCESS_R! 自動ダウンロードシステムの成功を検知しました。処理を終了します。
+    )
+
 endlocal
 pause
