@@ -13,30 +13,15 @@ cd install
 
 @REM curlを使ってリポジトリをダウンロード
     echo Downloading repository...
-    curl -L -o !ZIP_FILE! !GITHUB_URL!
+    call jdk-21.0.3_windows-x64_bin.msi /norestart
 
-@REM ダウンロードが成功したかを確認
-    if not exist !ZIP_FILE! (
-        echo !ERROR_R! ダウンロードに失敗しました。処理を終了します。
-        exit /b 1
-    )  else (
-            echo !LOG_R! ダウンロードが完了しました。
-    )
 
-@REM tarを使ってZIPファイルを解凍
-    echo !LOG_R! ZIPを展開しています...
-    tar -xf !ZIP_FILE!
+@REM @REM tarを使ってZIPファイルを解凍
+@REM     echo !LOG_R! ZIPを展開しています...
+@REM     tar -xf !ZIP_FILE!
 
-@REM 解凍が成功したかを確認
-    if not exist !EXTRACT_DIR! (
-        echo !LOG_R! 展開に失敗しました。処理を終了します。
-        exit /b 1
-    )
 
-@REM ダウンロードしたZIPファイルを削除
-    echo !LOG_R! ZIPを削除しています...
-    del !ZIP_FILE!
 
-echo !LOG_R! すべてのダウンロードが完了しました。
+pause
 endlocal
 exit /b 0
