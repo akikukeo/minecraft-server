@@ -2,6 +2,7 @@
 setlocal enabledelayedexpansion
 set title=自動セットアップシステム実行中...
 title %title%
+pause
 
 @REM config.ini を読み込む
     cd Setup-bat
