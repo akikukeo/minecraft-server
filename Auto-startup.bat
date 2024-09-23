@@ -7,7 +7,7 @@ setlocal enabledelayedexpansion
     cd Servers/Prox-velo
     start run.bat
 
-cd ./Startup-bat
+cd ../../Startup-bat
 @REM config“Ç‚Ý
     for /f "tokens=1,2 delims==" %%a in (config.ini) do (
     set %%a=%%b
