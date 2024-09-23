@@ -9,6 +9,7 @@ title 自動ダウンロードシステム実行中...
         set %%a=%%b
     )
 
+md install
 cd install
 
 @REM curlを使ってリポジトリをダウンロード
