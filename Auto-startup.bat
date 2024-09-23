@@ -1,6 +1,7 @@
 @echo off
 title Auto-startup.bat
 setlocal enabledelayedexpansion
+chcp 932
 
 cd ./Startup-bat
 :: config Žæ“¾
