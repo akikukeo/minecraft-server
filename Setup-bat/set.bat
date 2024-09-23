@@ -1,4 +1,5 @@
 @echo off
+chcp 932
 setlocal enabledelayedexpansion
 
 @REM GitHubƒŠƒ|ƒWƒgƒŠ‚Ìî•ñ‚ğİ’è

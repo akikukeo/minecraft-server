@@ -1,4 +1,5 @@
 @echo off
+chcp 932
 setlocal enabledelayedexpansion
 title 自動ダウンロードシステム実行中...
 

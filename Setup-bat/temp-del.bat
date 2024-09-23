@@ -1,4 +1,5 @@
 @echo off
+chcp 932
 setlocal
 
 @REM config.ini ‚ğ“Ç‚İ‚Ş

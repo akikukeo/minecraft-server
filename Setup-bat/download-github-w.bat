@@ -1,4 +1,5 @@
 @echo off
+chcp 932
 setlocal enabledelayedexpansion
 
 set wget_o_pass=wget_log
