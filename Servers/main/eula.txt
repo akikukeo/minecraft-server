@@ -1,0 +1,3 @@
+#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).
+#Edited by MC Server Soft at 2024/09/24 17:22:20
+eula=true
