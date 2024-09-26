@@ -540,3 +540,224 @@
 16:52:24 [情報] Saving reconnect locations
 16:52:24 [情報] Disabling plugins
 16:52:24 [情報] Closing IO threads
+17:13:29 [情報] Using standard Java JCE cipher.
+17:13:29 [情報] Using standard Java compressor.
+17:13:29 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:13:29 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:13:29 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:13:29 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:13:29 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:13:29 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:13:29 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:13:29 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [警告] Forced host server pvp is not defined
+17:13:29 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:13:29 [情報] Listening on /0.0.0.0:25577
+17:15:03 [情報] Using standard Java JCE cipher.
+17:15:03 [情報] Using standard Java compressor.
+17:15:03 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:15:03 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:15:03 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:15:03 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:15:03 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:15:03 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:15:03 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:15:03 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [警告] Forced host server pvp is not defined
+17:15:03 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:15:03 [情報] Listening on /0.0.0.0:25577
+17:16:33 [情報] Using standard Java JCE cipher.
+17:16:33 [情報] Using standard Java compressor.
+17:16:33 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:16:33 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:16:33 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:16:33 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:16:33 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:16:33 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:16:33 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:16:33 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [警告] Forced host server pvp is not defined
+17:16:33 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:16:33 [情報] Listening on /0.0.0.0:25577
+17:17:00 [情報] Closing listener [id: 0x80d7efe4, L:/[0:0:0:0:0:0:0:0]:25577]
+17:17:00 [情報] Closing pending connections
+17:17:00 [情報] Disconnecting 0 connections
+17:17:00 [情報] Saving reconnect locations
+17:17:00 [情報] Disabling plugins
+17:17:00 [情報] Closing IO threads
+17:19:43 [情報] Using standard Java JCE cipher.
+17:19:43 [情報] Using standard Java compressor.
+17:19:43 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:19:45 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:19:45 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:19:45 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:19:45 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:19:45 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:19:45 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:19:45 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:45 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:45 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:45 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:45 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:45 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:45 [警告] Forced host server pvp is not defined
+17:19:46 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:46 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:46 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:46 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:46 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:46 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:19:46 [情報] Listening on /0.0.0.0:25577
+17:20:19 [情報] §cCommand not found
+17:20:22 [情報] Closing listener [id: 0x2c3e430a, L:/[0:0:0:0:0:0:0:0]:25577]
+17:20:22 [情報] Closing pending connections
+17:20:22 [情報] Disconnecting 0 connections
+17:20:23 [情報] Saving reconnect locations
+17:20:23 [情報] Disabling plugins
+17:20:23 [情報] Closing IO threads
+17:21:12 [情報] Using standard Java JCE cipher.
+17:21:12 [情報] Using standard Java compressor.
+17:21:12 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:21:12 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:21:12 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:21:12 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:21:12 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:21:12 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:21:12 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:21:12 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [警告] Forced host server pvp is not defined
+17:21:12 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:21:12 [情報] Listening on /0.0.0.0:25577
+17:21:23 [情報] Closing listener [id: 0x1f8a79b5, L:/[0:0:0:0:0:0:0:0]:25577]
+17:21:23 [情報] Closing pending connections
+17:21:23 [情報] Disconnecting 0 connections
+17:21:24 [情報] Saving reconnect locations
+17:21:24 [情報] Disabling plugins
+17:21:24 [情報] Closing IO threads
+17:22:12 [情報] Using standard Java JCE cipher.
+17:22:12 [情報] Using standard Java compressor.
+17:22:12 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:22:12 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:22:12 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:22:12 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:22:12 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:22:12 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:22:12 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:22:12 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [警告] Forced host server pvp is not defined
+17:22:12 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:22:12 [情報] Listening on /0.0.0.0:25577
+17:22:17 [情報] Closing listener [id: 0x2c536f6a, L:/[0:0:0:0:0:0:0:0]:25577]
+17:22:17 [情報] Closing pending connections
+17:22:17 [情報] Disconnecting 0 connections
+17:22:17 [情報] Saving reconnect locations
+17:22:17 [情報] Disabling plugins
+17:22:17 [情報] Closing IO threads
+17:27:35 [情報] Using standard Java JCE cipher.
+17:27:35 [情報] Using standard Java compressor.
+17:27:35 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:27:35 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:27:35 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:27:35 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:27:35 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:27:35 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:27:35 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:27:35 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:35 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:35 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:35 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:35 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:35 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [警告] Forced host server pvp is not defined
+17:27:36 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:27:36 [情報] Listening on /0.0.0.0:25577
+17:27:43 [情報] Closing listener [id: 0xfa1f55ed, L:/[0:0:0:0:0:0:0:0]:25577]
+17:27:43 [情報] Closing pending connections
+17:27:43 [情報] Disconnecting 0 connections
+17:27:44 [情報] Saving reconnect locations
+17:27:44 [情報] Disabling plugins
+17:27:44 [情報] Closing IO threads
+17:32:16 [情報] Using standard Java JCE cipher.
+17:32:16 [情報] Using standard Java compressor.
+17:32:16 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+17:32:17 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:32:17 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:32:17 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:32:17 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:32:17 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:32:17 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:32:17 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [警告] Forced host server pvp is not defined
+17:32:17 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+17:32:17 [情報] Listening on /0.0.0.0:25577
+17:32:22 [情報] Closing listener [id: 0x5db50c8e, L:/[0:0:0:0:0:0:0:0]:25577]
+17:32:22 [情報] Closing pending connections
+17:32:22 [情報] Disconnecting 0 connections
+17:32:23 [情報] Saving reconnect locations
+17:32:23 [情報] Disabling plugins
+17:32:23 [情報] Closing IO threads

@@ -49,34 +49,35 @@ setlocal enabledelayedexpansion
         cd BungeeCord
         start run.bat
         if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! BungeeCordフォルダのrun.batをstartで起動完了)
-        cd ../
+        cd ..\
         if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! Serversフォルダに移動完了)
         echo !timestamp!!LOG! BungeeCordを起動しました。
-        
 
     @REM lobby起動
         cd lobby
         start run.bat
         if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! lobbyフォルダのrun.batをstartで起動完了)
-        cd ../
+        cd ..\
         if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! Serversフォルダに移動完了)
         echo !timestamp!!LOG! lobbyを起動しました。
 
-    @REM lobby起動
+    @REM main起動
         cd main
         start run.bat
         if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! mainフォルダのrun.batをstartで起動完了)
-        cd ../
+        cd ..\
         if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! Serversフォルダに移動完了)
         echo !timestamp!!LOG! mainを起動しました。
     
     echo !timestamp!!SUC! 登録プログラムを起動しました。キーを押して終了...
 
     if "!DEBUG_MODE!"=="true" (
-        echo !timestamp!!DBG! 登録プログラム一覧
-        echo                  | BungeeCord/run.bat
-        echo                  | lobby/run.bat
-        echo                  | main/run.bat
+        echo !timestamp! !DBG! 登録プログラム一覧
+        echo                   ------------------
+        echo                   BungeeCord\run.bat
+        echo                   lobby\run.bat
+        echo                   main\run.bat
+        echo                   ------------------
     )
 
 pause
