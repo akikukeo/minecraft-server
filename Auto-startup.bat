@@ -1,20 +1,17 @@
 @echo off
 title Auto-startup.bat
-chcp 932
+chcp 65001
 setlocal enabledelayedexpansion
 
-@REM prox�T�[�o�[�N��
-    cd Servers/Prox-velo
-    start run.bat
-
-cd ../../Startup-bat
-@REM config�ǂ�
+@REM config読み
+    echo コンフィグを読み込んでいます...
     for /f "tokens=1,2 delims==" %%a in (config.ini) do (
     set %%a=%%b
     )
+    echo 読み込みが完了しました。
 
-set java_Xms_M_re=-Xms%java_Xms_M%M -Xmx%java_Xms_M%M -jar paper-1.21.1-85.jar
-start Paper-run.bat
+@REM set java_Xms_M_re=-Xms%java_Xms_M%M -Xmx%java_Xms_M%M -jar paper-1.21.1-85.jar
+@REM start Paper-run.bat
 
 endlocal
 exit
