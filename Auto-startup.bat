@@ -22,14 +22,36 @@ setlocal enabledelayedexpansion
     echo !timestamp!!SUC! 設定読み込みが完了しました。
 
 
-@REM java引数の設定
+@REM @REM java引数の設定
 
-    @REM configから読み込む
-        echo !timestamp!!LOG! java引数を読み込みます...
-        set java_Xm_xs_M=-Xms!java_Xms_M!M -Xmx!java_Xmx_M!M -jar paper-1.21.1-85.jar
-        echo !timestamp!!SUC! java引数の設定が完了しました。
+@REM     @REM configから読み込む
+@REM         echo !timestamp!!LOG! java引数を読み込みます...
+@REM         set java_Xm_xs_M=-Xms!java_Xms_M!M -Xmx!java_Xmx_M!M
+@REM         echo !timestamp!!SUC! java引数の設定が完了しました。
+
+@REM 起動する
+
+    echo !timestamp!!LOG! 起動を開始します...
+    cd Servers
+
+    @REM bungeecord起動
+        cd BungeeCord
+        start run.bat
+        cd ../
+        echo !timestamp!!LOG! BungeeCordを起動しました。
+
+    @REM lobby起動
+        cd lobby
+        start run.bat
+        cd ../
+        echo !timestamp!!LOG! lobbyを起動しました。
+
+    @REM lobby起動
+        cd main
+        start run.bat
+        cd ../
+        echo !timestamp!!LOG! mainを起動しました。
+    
 pause
-
-
 endlocal
 exit
