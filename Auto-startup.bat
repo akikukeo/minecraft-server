@@ -19,15 +19,26 @@ setlocal enabledelayedexpansion
         set minute=!time:~2,2!
         set second=!time:~4,2!
         set timestamp=[!hour!:!minute!:!second!]
+
     echo !timestamp!!SUC! 設定読み込みが完了しました。
 
 
-@REM @REM java引数の設定
+    @REM デバッグオプションの設定
+        if "!DEBUG_MODE!"=="true" (
+            echo !timestamp!!DBG! デバッグオプションが""有効化""されています。configで設定できます。
+        ) else (
+            echo !timestamp!!DBG! デバッグオプションが""無効化""されています。configで設定できます。
+        )
+        
+        pause
 
-@REM     @REM configから読み込む
-@REM         echo !timestamp!!LOG! java引数を読み込みます...
-@REM         set java_Xm_xs_M=-Xms!java_Xms_M!M -Xmx!java_Xmx_M!M
-@REM         echo !timestamp!!SUC! java引数の設定が完了しました。
+@REM 使わない（機能追加）
+    @REM @REM java引数の設定
+
+    @REM     @REM configから読み込む
+    @REM         echo !timestamp!!LOG! java引数を読み込みます...
+    @REM         set java_Xm_xs_M=-Xms!java_Xms_M!M -Xmx!java_Xmx_M!M
+    @REM         echo !timestamp!!SUC! java引数の設定が完了しました。
 
 @REM 起動する
 
@@ -37,21 +48,37 @@ setlocal enabledelayedexpansion
     @REM bungeecord起動
         cd BungeeCord
         start run.bat
+        if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! BungeeCordフォルダのrun.batをstartで起動完了)
         cd ../
+        if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! Serversフォルダに移動完了)
         echo !timestamp!!LOG! BungeeCordを起動しました。
+        
 
     @REM lobby起動
         cd lobby
         start run.bat
+        if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! lobbyフォルダのrun.batをstartで起動完了)
         cd ../
+        if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! Serversフォルダに移動完了)
         echo !timestamp!!LOG! lobbyを起動しました。
 
     @REM lobby起動
         cd main
         start run.bat
+        if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! mainフォルダのrun.batをstartで起動完了)
         cd ../
+        if "!DEBUG_MODE!"=="true" ( echo !timestamp!!DBG! Serversフォルダに移動完了)
         echo !timestamp!!LOG! mainを起動しました。
     
+    echo !timestamp!!SUC! 登録プログラムを起動しました。キーを押して終了...
+
+    if "!DEBUG_MODE!"=="true" (
+        echo !timestamp!!DBG! 登録プログラム一覧
+        echo                  | BungeeCord/run.bat
+        echo                  | lobby/run.bat
+        echo                  | main/run.bat
+    )
+
 pause
 endlocal
 exit
