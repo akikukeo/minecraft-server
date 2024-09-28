@@ -113,11 +113,11 @@ setlocal enabledelayedexpansion
 
     if "!DEBUG_MODE!"=="true" (
         echo !timestamp!!DBG! 登録プログラム一覧
-        echo                   ------------------
-        echo                   BungeeCord\run.bat
-        echo                   lobby\run.bat
-        echo                   main\run.bat
-        echo                   ------------------
+        echo !timestamp!!DBG!  ------------------
+        echo !timestamp!!DBG!  BungeeCord\run.bat
+        echo !timestamp!!DBG!  lobby\run.bat
+        echo !timestamp!!DBG!  main\run.bat
+        echo !timestamp!!DBG!  ------------------
     )
 
 pause
