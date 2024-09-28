@@ -32,6 +32,17 @@ setlocal enabledelayedexpansion
         
         pause
 
+    @REM テストオプションの設定
+        if "!DEBUG_MODE!"=="true" (
+            echo !timestamp!!DBG! デバッグオプションが""有効化""されています。configで設定できます。
+        ) else (
+            echo !timestamp!!DBG! デバッグオプションが""無効化""されています。configで設定できます。
+        )
+        
+        pause
+
+
+テストモードの設定
 @REM 使わない（機能追加）
     @REM @REM java引数の設定
 
@@ -72,7 +83,7 @@ setlocal enabledelayedexpansion
     echo !timestamp!!SUC! 登録プログラムを起動しました。キーを押して終了...
 
     if "!DEBUG_MODE!"=="true" (
-        echo !timestamp! !DBG! 登録プログラム一覧
+        echo !timestamp!!DBG! 登録プログラム一覧
         echo                   ------------------
         echo                   BungeeCord\run.bat
         echo                   lobby\run.bat
