@@ -42,4 +42,8 @@
     ViaBackwards-5.0.3.jar
     ViaRewind-4.0.2.jar
     ViaVersion-5.0.3.jar
-    
+
+
+## サーバーの仕組み
+### 複雑な構成図です。
+![複雑構成図](https://github.com/user-attachments/assets/d06aa2f7-7cf7-43f5-a203-9d6371ae1807)
