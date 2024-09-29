@@ -5,9 +5,10 @@
 ## 環境について
 当サーバーは、PaperMCで構築し、BungeeCordで繋ぐことにより動作しています。
 java版はViaVersion等プラグインによりサーバーと違うバージョンでも参加が可能となっています。統合版は現在対応作業を行っています。
-以下は対応済みバージョンの表となります。
+以下は対応済みバージョンの表となります。  
+ViaVersion公式サイトより引用
+![ViaVersion公式サイトより引用](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090)
 
-[画像](https://proxy.spigotmc.org/4d591f2da290cc9ab7621d006cb1dd7cd7754dca?url=https%3A%2F%2Fi.imgur.com%2FzrQTcf0.png)
 
 ---
 
