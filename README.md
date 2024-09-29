@@ -31,3 +31,8 @@ ViaBackwards-5.0.3.jar
 ViaRewind-4.0.2.jar
 ViaVersion-5.0.3.jar
 ```
+
+## サーバーの仕組み(簡略)
+### 簡略した構成図になります。
+詳しくはDoc/DEV-README.mdをご覧ください。
+![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666)
