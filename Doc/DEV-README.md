@@ -3,12 +3,17 @@
 
 ## 使用ポート｜ip
 ### <各サーバー>
-### lobby-ip: 25571
-### main-ip: 25572
+### lobby:
+    port: 25571
+### main:
+    port: 25572
 ---
 ### <アクセス用>
-### BungeeCord-ip: 25570 | host-TCP: 0.0.0.0:25570
-### 統合版ip-UDP: 19132
+### BungeeCord:
+    port: 25570→37564
+    host-TCP-port: 0.0.0.0:25570→0.0.0.0:37564
+### 統合版:
+    UDP-port: 19132
 
 
 ## 使用プラグイン
@@ -37,3 +42,4 @@
     ViaBackwards-5.0.3.jar
     ViaRewind-4.0.2.jar
     ViaVersion-5.0.3.jar
+    
