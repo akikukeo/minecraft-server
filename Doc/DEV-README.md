@@ -47,4 +47,8 @@
 
 ## サーバーの仕組み
 ### 複雑な構成図です。
+**緑：クライアントの経路**  
+**黄色：Auto-startup.batの経路**  
+**黒：サーバーがアクセスする経路**  
+
 ![複雑構成図](https://github.com/user-attachments/assets/d06aa2f7-7cf7-43f5-a203-9d6371ae1807)
