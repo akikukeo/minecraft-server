@@ -173,6 +173,8 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 players:
   disable-saving: false
 config-version: 12
