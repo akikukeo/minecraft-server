@@ -1,5 +1,6 @@
 # minecraft server | DEV-README
 こんにちは。こちらは、デベロッパー向けのREADMEとなります。
+[一般向けはコチラ！](https://github.com/akikukeo/minecraft-server/blob/DEV-main/README.md)
 
 ## 使用ポート｜ip
 ### <各サーバー>
