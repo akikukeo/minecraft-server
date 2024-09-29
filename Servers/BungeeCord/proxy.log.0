@@ -819,3 +819,224 @@
 21:01:53 [情報] Saving reconnect locations
 21:01:53 [情報] Disabling plugins
 21:01:53 [情報] Closing IO threads
+12:41:37 [情報] Using standard Java JCE cipher.
+12:41:37 [情報] Using standard Java compressor.
+12:41:37 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:41:40 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [警告] Forced host server pvp is not defined
+12:41:40 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Listening on /0.0.0.0:25577
+12:42:51 [情報] [/127.0.0.1:52359] <-> InitialHandler has connected
+12:43:11 [情報] [akikukeo,/127.0.0.1:52402] <-> InitialHandler has connected
+12:43:13 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:43:13 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:43:16 [情報] [akikukeo,/127.0.0.1:52410] <-> InitialHandler has connected
+12:43:17 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:43:17 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:45:25 [情報] [/127.0.0.1:52644] <-> InitialHandler has connected
+12:45:26 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+12:45:30 [情報] Netty is not using direct IO buffers.
+
+12:48:27 [警告] [akikukeo] <-> DownstreamBridge <-> [lobby] - read timed out
+12:48:27 [情報] [akikukeo] disconnected with: §f§fReadTimeoutException : null
+12:48:27 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:48:27 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+12:48:40 [情報] [/127.0.0.1:53007] <-> InitialHandler has connected
+12:48:41 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+12:49:11 [警告] [akikukeo] -> UpstreamBridge - read timed out
+12:49:11 [情報] [akikukeo] disconnected with: §f§fReadTimeoutException : null
+12:49:11 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:49:11 [警告] [akikukeo] <-> ServerConnector [lobby] - read timed out
+12:49:11 [情報] [akikukeo] <-> ServerConnector [lobby] has disconnected
+12:49:14 [情報] [akikukeo,/127.0.0.1:53080] <-> InitialHandler has connected
+12:49:14 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+12:49:29 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:49:44 [警告] [akikukeo] <-> ServerConnector [lobby] - read timed out
+12:49:44 [情報] [akikukeo] <-> ServerConnector [lobby] has disconnected
+12:51:22 [情報] Closing listener [id: 0x9a8d0cf3, L:/[0:0:0:0:0:0:0:0]:25577]
+12:51:22 [情報] Closing pending connections
+12:51:22 [情報] Disconnecting 0 connections
+12:51:22 [情報] Saving reconnect locations
+12:51:22 [情報] Disabling plugins
+12:51:22 [情報] Closing IO threads
+12:51:24 [情報] Thank you and goodbye
+15:52:44 [情報] Using standard Java JCE cipher.
+15:52:44 [情報] Using standard Java compressor.
+15:52:44 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+15:52:45 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:52:45 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:52:45 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:52:45 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:52:45 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:52:45 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:52:45 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [警告] Forced host server pvp is not defined
+15:52:45 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:45 [情報] Listening on /0.0.0.0:25577
+15:53:37 [情報] Closing listener [id: 0x6bb77199, L:/[0:0:0:0:0:0:0:0]:25577]
+15:53:37 [情報] Closing pending connections
+15:53:37 [情報] Disconnecting 0 connections
+15:53:38 [情報] Saving reconnect locations
+15:53:38 [情報] Disabling plugins
+15:53:38 [情報] Closing IO threads
+15:53:43 [情報] Using standard Java JCE cipher.
+15:53:43 [情報] Using standard Java compressor.
+15:53:43 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+15:53:43 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:53:43 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:53:43 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:53:43 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:53:43 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:53:43 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:53:43 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [警告] Forced host server pvp is not defined
+15:53:43 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:43 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:53:44 [情報] Listening on /0.0.0.0:25570
+15:53:47 [情報] Closing listener [id: 0x0879c0ae, L:/[0:0:0:0:0:0:0:0]:25570]
+15:53:47 [情報] Closing pending connections
+15:53:47 [情報] Disconnecting 0 connections
+15:53:47 [情報] Saving reconnect locations
+15:53:47 [情報] Disabling plugins
+15:53:47 [情報] Closing IO threads
+16:01:14 [情報] Using standard Java JCE cipher.
+16:01:14 [情報] Using standard Java compressor.
+16:01:14 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+16:01:14 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:01:14 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:01:14 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:01:14 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:01:14 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:01:14 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:01:15 [情報] [Geyser-BungeeCord] 拡張機能を読み込み中...
+16:01:15 [情報] [Geyser-BungeeCord] 0 拡張機能を読み込みました
+16:01:15 [情報] Loaded plugin Geyser-BungeeCord version 2.4.3-SNAPSHOT by GeyserMC
+16:01:15 [警告] Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+16:01:15 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:15 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:15 [警告] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+16:01:15 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:15 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:15 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:15 [警告] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+16:01:15 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:15 [警告] Forced host server pvp is not defined
+16:01:16 [情報] Enabled plugin Geyser-BungeeCord version 2.4.3-SNAPSHOT by GeyserMC
+16:01:16 [情報] [Geyser-BungeeCord] ******************************************
+16:01:16 [情報] [Geyser-BungeeCord] 
+16:01:16 [情報] [Geyser-BungeeCord] Geyser バージョン 2.4.3-b680 (git-master-84dac08) を読み込んでいます
+16:01:16 [情報] [Geyser-BungeeCord] 
+16:01:16 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:16 [情報] [Geyser-BungeeCord] ******************************************
+16:01:16 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:16 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:16 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:16 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:16 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+16:01:16 [情報] Listening on /0.0.0.0:25570
+16:01:22 [情報] [Geyser-BungeeCord] UDP ポート 19132 で開始しました
+16:01:22 [情報] [Geyser-BungeeCord] 完了 (6.783s)！ /geyser help を実行してください！
+16:01:23 [情報] [Geyser-BungeeCord] Minecraft JAR をダウンロードして必要なファイルを抽出しています。お待ちください... (Internet接続の速度によっては、時間がかかる場合があります)
+16:01:25 [情報] [Geyser-BungeeCord] Minecraft JARのダウンロードと読み込みに成功しました!
+16:01:43 [情報] Closing listener [id: 0x50d4c6d6, L:/[0:0:0:0:0:0:0:0]:25570]
+16:01:43 [情報] Closing listener [id: 0xe1d7955a, L:local:E:0775250b]
+16:01:43 [情報] Closing pending connections
+16:01:43 [情報] Disconnecting 0 connections
+16:01:43 [情報] Saving reconnect locations
+16:01:43 [情報] Disabling plugins
+16:01:43 [情報] [Geyser-BungeeCord] Geyser をシャットダウンしています。
+16:01:43 [情報] [Geyser-BungeeCord] Geyser は正常にシャットダウンしました。
+16:01:43 [情報] Closing IO threads
+16:01:46 [情報] Thank you and goodbye
