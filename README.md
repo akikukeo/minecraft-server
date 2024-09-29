@@ -1,6 +1,7 @@
 # minecraft server | README
 
-ご覧いただきありがとうございます。このREADMEは一般参加者などに向けて作成しています。開発者の方は合わせてDoc/DEV-README.mdをご覧ください。
+ご覧いただきありがとうございます。このREADMEは一般参加者などに向けて作成しています。開発者の方は合わせて[DEV-README.md](https://github.com/akikukeo/minecraft-server/blob/main/Doc/DEV-README.md)をご覧ください。
+
 
 ## 環境について
 当サーバーは、PaperMCで構築し、BungeeCordで繋ぐことにより動作しています。
@@ -34,5 +35,5 @@ ViaVersion-5.0.3.jar
 
 ## サーバーの仕組み(簡略)
 ### 簡略した構成図になります。
-詳しくはDoc/DEV-README.mdをご覧ください。
+詳しくは[DEV-README.md](https://github.com/akikukeo/minecraft-server/blob/main/Doc/DEV-README.md)をご覧ください。
 ![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666)
