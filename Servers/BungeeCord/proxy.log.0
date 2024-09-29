@@ -819,3 +819,60 @@
 21:01:53 [情報] Saving reconnect locations
 21:01:53 [情報] Disabling plugins
 21:01:53 [情報] Closing IO threads
+12:41:37 [情報] Using standard Java JCE cipher.
+12:41:37 [情報] Using standard Java compressor.
+12:41:37 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+12:41:39 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:41:40 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [警告] Forced host server pvp is not defined
+12:41:40 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+12:41:40 [情報] Listening on /0.0.0.0:25577
+12:42:51 [情報] [/127.0.0.1:52359] <-> InitialHandler has connected
+12:43:11 [情報] [akikukeo,/127.0.0.1:52402] <-> InitialHandler has connected
+12:43:13 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:43:13 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:43:16 [情報] [akikukeo,/127.0.0.1:52410] <-> InitialHandler has connected
+12:43:17 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:43:17 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:45:25 [情報] [/127.0.0.1:52644] <-> InitialHandler has connected
+12:45:26 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+12:45:30 [情報] Netty is not using direct IO buffers.
+
+12:48:27 [警告] [akikukeo] <-> DownstreamBridge <-> [lobby] - read timed out
+12:48:27 [情報] [akikukeo] disconnected with: §f§fReadTimeoutException : null
+12:48:27 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:48:27 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+12:48:40 [情報] [/127.0.0.1:53007] <-> InitialHandler has connected
+12:48:41 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+12:49:11 [警告] [akikukeo] -> UpstreamBridge - read timed out
+12:49:11 [情報] [akikukeo] disconnected with: §f§fReadTimeoutException : null
+12:49:11 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:49:11 [警告] [akikukeo] <-> ServerConnector [lobby] - read timed out
+12:49:11 [情報] [akikukeo] <-> ServerConnector [lobby] has disconnected
+12:49:14 [情報] [akikukeo,/127.0.0.1:53080] <-> InitialHandler has connected
+12:49:14 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+12:49:29 [情報] [akikukeo] -> UpstreamBridge has disconnected
+12:49:44 [警告] [akikukeo] <-> ServerConnector [lobby] - read timed out
+12:49:44 [情報] [akikukeo] <-> ServerConnector [lobby] has disconnected
+12:51:22 [情報] Closing listener [id: 0x9a8d0cf3, L:/[0:0:0:0:0:0:0:0]:25577]
+12:51:22 [情報] Closing pending connections
+12:51:22 [情報] Disconnecting 0 connections
+12:51:22 [情報] Saving reconnect locations
+12:51:22 [情報] Disabling plugins
+12:51:22 [情報] Closing IO threads
+12:51:24 [情報] Thank you and goodbye
