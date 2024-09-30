@@ -1,4 +1,4 @@
-# minecraft serverv0.1.1-alpha | DEV-README
+# minecraft serverv0.1.2-alpha | DEV-README
 こんにちは。こちらは、デベロッパー向けのREADMEとなります。
 [一般向けはコチラ！](https://github.com/akikukeo/minecraft-server/blob/main/README.md)
 
