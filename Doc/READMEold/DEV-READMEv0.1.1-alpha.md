@@ -1,13 +1,20 @@
-# minecraft server | README
+# minecraft serverv0.1.1-alpha | DEV-README
+こんにちは。こちらは、デベロッパー向けのREADMEとなります。
+[一般向けはコチラ！](https://github.com/akikukeo/minecraft-server/blob/main/README.md)
 
 ## 使用ポート｜ip
 ### <各サーバー>
-### lobby-ip: 25571
-### main-ip: 25572
+### lobby:
+    port: 25571
+### main:
+    port: 25572
 ---
 ### <アクセス用>
-### BungeeCord-ip: 25570 | host-TCP: 0.0.0.0:25570
-### 統合版ip-UDP: 19132
+### BungeeCord:
+    port: 25570→37564
+    host-TCP-port: 0.0.0.0:25570→0.0.0.0:37564
+### 統合版:
+    UDP-port: 19132
 
 
 ## 使用プラグイン
@@ -36,3 +43,12 @@
     ViaBackwards-5.0.3.jar
     ViaRewind-4.0.2.jar
     ViaVersion-5.0.3.jar
+
+
+## サーバーの仕組み
+### 複雑な構成図です。
+**緑：クライアントの経路**  
+**黄色：Auto-startup.batの経路**  
+**黒：サーバーがアクセスする経路**  
+
+![複雑構成図](https://github.com/user-attachments/assets/d06aa2f7-7cf7-43f5-a203-9d6371ae1807)
