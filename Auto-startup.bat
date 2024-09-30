@@ -1,6 +1,6 @@
 @echo off
 title Auto-startup.bat
-@chcp 65001
+chcp 65001 > NUL
 setlocal enabledelayedexpansion
 
 @REM 設定する
