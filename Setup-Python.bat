@@ -1,5 +1,4 @@
 chcp 65001 > NUL
-
 @REM https://github.com/Zuntan03/EasyBertVits2 より引用・改変
 setlocal enabledelayedexpansion
 
