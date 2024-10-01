@@ -1,5 +1,5 @@
 @echo off
-chcp 65001
+chcp 65001 > NUL
 setlocal enabledelayedexpansion
 
 @REM config 読み込み

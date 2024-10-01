@@ -1040,3 +1040,530 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
 16:01:43 [情報] [Geyser-BungeeCord] Geyser は正常にシャットダウンしました。
 16:01:43 [情報] Closing IO threads
 16:01:46 [情報] Thank you and goodbye
+14:11:47 [情報] Using standard Java JCE cipher.
+14:11:47 [情報] Using standard Java compressor.
+14:11:47 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+14:11:48 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:11:48 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:11:48 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:11:48 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:11:48 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:11:48 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:11:50 [情報] [Geyser-BungeeCord] 拡張機能を読み込み中...
+14:11:50 [情報] [Geyser-BungeeCord] 0 拡張機能を読み込みました
+14:11:50 [情報] Loaded plugin Geyser-BungeeCord version 2.4.3-SNAPSHOT by GeyserMC
+14:11:50 [警告] Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+14:11:50 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:50 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:50 [警告] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+14:11:50 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:50 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:50 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:50 [警告] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+14:11:50 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:50 [警告] Forced host server pvp is not defined
+14:11:51 [情報] Enabled plugin Geyser-BungeeCord version 2.4.3-SNAPSHOT by GeyserMC
+14:11:51 [情報] [Geyser-BungeeCord] ******************************************
+14:11:51 [情報] [Geyser-BungeeCord] 
+14:11:51 [情報] [Geyser-BungeeCord] Geyser バージョン 2.4.3-b680 (git-master-84dac08) を読み込んでいます
+14:11:51 [情報] [Geyser-BungeeCord] 
+14:11:51 [情報] [Geyser-BungeeCord] ******************************************
+14:11:51 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:51 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:51 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:51 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:51 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:51 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+14:11:53 [情報] Listening on /0.0.0.0:37564
+14:12:04 [情報] [Geyser-BungeeCord] UDP ポート 19132 で開始しました
+14:12:04 [情報] [Geyser-BungeeCord] 完了 (13.679s)！ /geyser help を実行してください！
+14:19:34 [情報] [/192.168.1.5:52442] <-> InitialHandler has connected
+14:19:35 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+14:19:35 [情報] [akikukeo] disconnected with: §f§cKicked whilst connecting to lobby: §fOutdated client! Please use 1.21.1
+14:19:35 [情報] [akikukeo] -> UpstreamBridge has disconnected
+14:19:35 [情報] [akikukeo] <-> ServerConnector [lobby] has disconnected
+14:22:43 [情報] [/127.0.0.1:52724] <-> InitialHandler has pinged
+14:22:48 [情報] [/127.0.0.1:52739] <-> InitialHandler has connected
+14:22:49 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+14:22:49 [情報] Netty is not using direct IO buffers.
+
+14:23:46 [情報] [/[0:0:0:0:0:0:0:1]:52838] <-> InitialHandler has pinged
+14:23:47 [情報] [/[0:0:0:0:0:0:0:1]:52842] <-> InitialHandler has connected
+14:23:48 [情報] [rame8] <-> ServerConnector [lobby] has connected
+14:34:31 [情報] [rame8] -> UpstreamBridge has disconnected
+14:34:31 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+14:34:36 [情報] §f§a[lobby] §e(1): §fakikukeo
+14:34:36 [情報] Total players online: 1
+14:35:00 [情報] §cCommand not found
+14:35:26 [情報] §f§8[§4Alert§8]§f this is a test mes
+14:36:15 [情報] §cPlease follow this command by a username.
+14:36:21 [情報] §9IP of akikukeo is /127.0.0.1:52739
+14:37:29 [情報] [/[0:0:0:0:0:0:0:1]:54053] <-> InitialHandler has pinged
+14:38:54 [情報] [/[0:0:0:0:0:0:0:1]:54163] <-> InitialHandler has pinged
+14:38:56 [情報] [/[0:0:0:0:0:0:0:1]:54168] <-> InitialHandler has connected
+14:38:57 [情報] [rame8] <-> ServerConnector [lobby] has connected
+14:39:01 [情報] [rame8] -> UpstreamBridge has disconnected
+14:39:01 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+14:39:52 [情報] §2Attempting to send 1 players to main
+14:39:52 [情報] §a§lSend Results:
+14:39:52 [情報] §f§aALREADY_CONNECTING: §a§l0
+14:39:52 [情報] §f§aALREADY_CONNECTED: §a§l0
+14:39:52 [情報] §f§aFAIL: §a§l0
+14:39:52 [情報] §f§aEVENT_CANCEL: §a§l0
+14:39:52 [情報] §f§aSUCCESS: §a§l1
+14:39:52 [情報] [akikukeo] <-> ServerConnector [main] has connected
+14:39:53 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+14:40:11 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+14:40:13 [情報] [akikukeo] <-> DownstreamBridge <-> [main] has disconnected
+14:46:33 [情報] [/[0:0:0:0:0:0:0:1]:54884] <-> InitialHandler has pinged
+14:46:34 [情報] [/[0:0:0:0:0:0:0:1]:54885] <-> InitialHandler has connected
+14:46:35 [情報] [rame8] <-> ServerConnector [lobby] has connected
+14:49:05 [情報] §2Attempting to send 2 players to main
+14:49:05 [情報] [akikukeo] <-> ServerConnector [main] has connected
+14:49:05 [情報] [rame8] <-> ServerConnector [main] has connected
+14:49:05 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+14:49:05 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+14:52:54 [情報] §2Attempting to send 2 players to lobby
+14:52:54 [情報] §a§lSend Results:
+14:52:54 [情報] §f§aALREADY_CONNECTING: §a§l0
+14:52:54 [情報] §f§aALREADY_CONNECTED: §a§l0
+14:52:54 [情報] §f§aFAIL: §a§l0
+14:52:54 [情報] §f§aEVENT_CANCEL: §a§l0
+14:52:54 [情報] [rame8] <-> ServerConnector [lobby] has connected
+14:52:54 [情報] §f§aSUCCESS: §a§l2
+14:52:54 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+14:52:54 [情報] [akikukeo] <-> DownstreamBridge <-> [main] has disconnected
+14:52:54 [情報] [rame8] <-> DownstreamBridge <-> [main] has disconnected
+14:54:50 [情報] [rame8] disconnected with: §f§fServer is restarting
+14:54:50 [情報] [rame8] -> UpstreamBridge has disconnected
+14:54:50 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+14:54:50 [情報] [akikukeo] disconnected with: §f§fServer is restarting
+14:54:50 [情報] [akikukeo] -> UpstreamBridge has disconnected
+14:54:50 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+14:54:55 [情報] [/127.0.0.1:55672] <-> InitialHandler has connected
+14:54:56 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+14:54:56 [情報] [akikukeo] -> UpstreamBridge has disconnected
+14:55:09 [情報] [akikukeo,/127.0.0.1:55700] <-> InitialHandler has connected
+14:55:09 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+14:55:09 [情報] [akikukeo] -> UpstreamBridge has disconnected
+14:55:58 [情報] [akikukeo,/127.0.0.1:55785] <-> InitialHandler has connected
+14:55:58 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+14:56:02 [情報] [rame8,/[0:0:0:0:0:0:0:1]:55800] <-> InitialHandler has connected
+14:56:02 [情報] [rame8] <-> ServerConnector [lobby] has connected
+15:10:31 [警告] [rame8] -> UpstreamBridge - read timed out
+15:10:31 [情報] [rame8] disconnected with: §f§fReadTimeoutException : null
+15:10:31 [情報] [rame8] -> UpstreamBridge has disconnected
+15:10:31 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+15:12:39 [情報] Closing listener [id: 0x681305b3, L:local:E:3e6873ba]
+15:12:39 [情報] Closing listener [id: 0x444640ba, L:/[0:0:0:0:0:0:0:0]:37564]
+15:12:39 [情報] Closing pending connections
+15:12:39 [情報] Disconnecting 1 connections
+15:12:39 [情報] [akikukeo] disconnected with: §f§cThe proxy server is restarting
+15:12:39 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:12:39 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:12:39 [情報] Saving reconnect locations
+15:12:39 [情報] Disabling plugins
+15:12:39 [情報] [Geyser-BungeeCord] Geyser をシャットダウンしています。
+15:12:40 [情報] [Geyser-BungeeCord] Geyser は正常にシャットダウンしました。
+15:12:40 [情報] Closing IO threads
+15:12:41 [情報] Thank you and goodbye
+15:13:08 [情報] Using standard Java JCE cipher.
+15:13:08 [情報] Using standard Java compressor.
+15:13:08 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+15:13:08 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:13:08 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:13:08 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:13:08 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:13:08 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:13:08 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:13:13 [情報] [Geyser-BungeeCord] 拡張機能を読み込み中...
+15:13:13 [情報] [Geyser-BungeeCord] 0 拡張機能を読み込みました
+15:13:13 [情報] Loaded plugin Geyser-BungeeCord version 2.4.3-SNAPSHOT by GeyserMC
+15:13:13 [警告] Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+15:13:13 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:13 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:13 [警告] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+15:13:13 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:13 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:13 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:13 [警告] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+15:13:13 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:13 [警告] Forced host server pvp is not defined
+15:13:14 [情報] Enabled plugin Geyser-BungeeCord version 2.4.3-SNAPSHOT by GeyserMC
+15:13:14 [情報] [Geyser-BungeeCord] ******************************************
+15:13:14 [情報] [Geyser-BungeeCord] 
+15:13:14 [情報] [Geyser-BungeeCord] Geyser バージョン 2.4.3-b680 (git-master-84dac08) を読み込んでいます
+15:13:14 [情報] [Geyser-BungeeCord] 
+15:13:14 [情報] [Geyser-BungeeCord] ******************************************
+15:13:14 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:14 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:14 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:14 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:14 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:14 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:13:15 [情報] Listening on /0.0.0.0:37564
+15:13:27 [情報] [/127.0.0.1:58124] <-> InitialHandler has connected
+15:13:28 [情報] [Geyser-BungeeCord] UDP ポート 19132 で開始しました
+15:13:28 [情報] [Geyser-BungeeCord] 完了 (14.23s)！ /geyser help を実行してください！
+15:13:29 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+15:13:29 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:14:33 [情報] [akikukeo,/127.0.0.1:58254] <-> InitialHandler has connected
+15:14:33 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:14:34 [情報] Netty is not using direct IO buffers.
+
+15:15:54 [情報] Closing listener [id: 0x435da4c4, L:/[0:0:0:0:0:0:0:0]:37564]
+15:15:54 [情報] Closing listener [id: 0xf25bffe2, L:local:E:def7381b]
+15:15:54 [情報] Closing pending connections
+15:15:54 [情報] Disconnecting 1 connections
+15:15:54 [情報] [akikukeo] disconnected with: §f§cThe proxy server is restarting
+15:15:54 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:15:54 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:15:54 [情報] Saving reconnect locations
+15:15:54 [情報] Disabling plugins
+15:15:54 [情報] [Geyser-BungeeCord] Geyser をシャットダウンしています。
+15:15:54 [情報] [Geyser-BungeeCord] Geyser は正常にシャットダウンしました。
+15:15:54 [情報] Closing IO threads
+15:15:56 [情報] Thank you and goodbye
+15:16:15 [情報] Using standard Java JCE cipher.
+15:16:15 [情報] Using standard Java compressor.
+15:16:15 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+15:16:15 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:16:15 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:16:15 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:16:15 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:16:15 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:16:15 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:16:15 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:15 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:15 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:15 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:15 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:15 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [警告] Forced host server pvp is not defined
+15:16:16 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:16:16 [情報] Listening on /0.0.0.0:37564
+15:16:16 [情報] [/[0:0:0:0:0:0:0:1]:58418] <-> InitialHandler has connected
+15:16:16 [情報] [/[0:0:0:0:0:0:0:1]:58420] <-> InitialHandler has connected
+15:16:16 [情報] [rame8,/[0:0:0:0:0:0:0:1]:58417] <-> InitialHandler has connected
+15:16:16 [情報] [rame8,/127.0.0.1:58413] <-> InitialHandler has connected
+15:16:18 [情報] [/127.0.0.1:58426] <-> InitialHandler has connected
+15:16:19 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:16:19 [情報] Netty is not using direct IO buffers.
+
+15:16:27 [情報] [/[0:0:0:0:0:0:0:1]:58440] <-> InitialHandler has connected
+15:16:27 [情報] [rame8] <-> ServerConnector [lobby] has connected
+15:29:17 [情報] §2Attempting to send 2 players to main
+15:29:17 [情報] §a§lSend Results:
+15:29:17 [情報] §f§aEVENT_CANCEL: §a§l0
+15:29:17 [情報] §f§aFAIL: §a§l0
+15:29:17 [情報] §f§aALREADY_CONNECTED: §a§l0
+15:29:17 [情報] §f§aALREADY_CONNECTING: §a§l0
+15:29:17 [情報] [akikukeo] <-> ServerConnector [main] has connected
+15:29:17 [情報] §f§aSUCCESS: §a§l2
+15:29:17 [情報] [rame8] <-> ServerConnector [main] has connected
+15:29:19 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:29:19 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+15:29:30 [情報] §2Attempting to send 2 players to lobby
+15:29:30 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:29:31 [情報] §a§lSend Results:
+15:29:31 [情報] §f§aEVENT_CANCEL: §a§l0
+15:29:31 [情報] §f§aFAIL: §a§l0
+15:29:31 [情報] §f§aALREADY_CONNECTED: §a§l0
+15:29:31 [情報] §f§aALREADY_CONNECTING: §a§l0
+15:29:31 [情報] §f§aSUCCESS: §a§l2
+15:29:31 [情報] [rame8] <-> ServerConnector [lobby] has connected
+15:29:31 [情報] [rame8] <-> DownstreamBridge <-> [main] has disconnected
+15:29:31 [情報] [akikukeo] <-> DownstreamBridge <-> [main] has disconnected
+15:33:32 [情報] [rame8] disconnected with: §freconnect plz 再接続してください。テストです
+15:33:32 [情報] [akikukeo] disconnected with: §freconnect plz 再接続してください。テストです
+15:33:32 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:33:32 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:33:32 [情報] [rame8] -> UpstreamBridge has disconnected
+15:33:32 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+15:33:36 [情報] [/127.0.0.1:60104] <-> InitialHandler has connected
+15:33:37 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:35:50 [情報] [rame8,/[0:0:0:0:0:0:0:1]:60481] <-> InitialHandler has connected
+15:35:52 [情報] [rame8] <-> ServerConnector [lobby] has connected
+15:46:02 [情報] [akikukeo] <-> ServerConnector [main] has connected
+15:46:03 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:46:29 [情報] [rame8] <-> ServerConnector [main] has connected
+15:46:30 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+15:46:34 [重大] [rame8] -> UpstreamBridge - encountered exception
+io.netty.handler.codec.EncoderException: java.lang.IllegalArgumentException: Cannot get ID for packet class net.md_5.bungee.protocol.packet.TabCompleteResponse in phase CONFIGURATION with direction TO_CLIENT
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950)
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1019)
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:310)
+	at net.md_5.bungee.netty.ChannelWrapper.write(ChannelWrapper.java:94)
+	at net.md_5.bungee.UserConnection$1.sendPacket(UserConnection.java:155)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:270)
+	at net.md_5.bungee.protocol.packet.TabCompleteRequest.handle(TabCompleteRequest.java:87)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:128)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: Cannot get ID for packet class net.md_5.bungee.protocol.packet.TabCompleteResponse in phase CONFIGURATION with direction TO_CLIENT
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:463)
+	at net.md_5.bungee.protocol.Protocol$DirectionData.getId(Protocol.java:988)
+	at net.md_5.bungee.protocol.MinecraftEncoder.encode(MinecraftEncoder.java:26)
+	at net.md_5.bungee.protocol.MinecraftEncoder.encode(MinecraftEncoder.java:10)
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
+	... 47 more
+15:46:34 [情報] [rame8] disconnected with: §f§fEncoderException : java.lang.IllegalArgumentException: Cannot get ID for packet class net.md_5.bungee.protocol.packet.TabCompleteResponse in phase CONFIGURATION with direction TO_CLIENT @ io.netty.handler.codec.MessageToByteEncoder:125
+15:46:35 [情報] [rame8] -> UpstreamBridge has disconnected
+15:46:35 [情報] [rame8] <-> DownstreamBridge <-> [main] has disconnected
+15:46:53 [情報] [/[0:0:0:0:0:0:0:1]:61787] <-> InitialHandler has connected
+15:46:58 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:46:59 [情報] [akikukeo] <-> DownstreamBridge <-> [main] has disconnected
+15:47:23 [警告] [rame8,/[0:0:0:0:0:0:0:1]:61787] <-> InitialHandler - read timed out
+15:48:38 [警告] Forced host server pvp is not defined
+15:48:38 [情報] Closing listener [id: 0x25a12aa3, L:/[0:0:0:0:0:0:0:0]:37564]
+15:48:38 [情報] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+15:48:38 [情報] Listening on /0.0.0.0:37564
+15:50:29 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:50:29 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:50:29 [情報] [/127.0.0.1:62225] <-> InitialHandler has pinged
+15:50:46 [情報] [/127.0.0.1:62255] <-> InitialHandler has connected
+15:50:47 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:50:51 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:50:51 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:50:51 [情報] [/127.0.0.1:62266] <-> InitialHandler has pinged
+15:51:32 [情報] [akikukeo,/127.0.0.1:62334] <-> InitialHandler has connected
+15:51:32 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:51:50 [情報] Closing listener [id: 0x55e0b33b, L:/[0:0:0:0:0:0:0:0]:37564]
+15:51:50 [情報] Closing pending connections
+15:51:50 [情報] Disconnecting 1 connections
+15:51:50 [情報] [akikukeo] disconnected with: §f§cThe proxy server is restarting
+15:51:50 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:51:50 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:51:51 [情報] Saving reconnect locations
+15:51:51 [情報] Disabling plugins
+15:51:51 [情報] Closing IO threads
+15:51:52 [情報] Thank you and goodbye
+15:52:13 [情報] Using standard Java JCE cipher.
+15:52:13 [情報] Using standard Java compressor.
+15:52:13 [情報] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:acb85e3:1871
+15:52:14 [情報] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:52:14 [情報] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:52:14 [情報] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:52:14 [情報] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:52:14 [情報] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:52:14 [情報] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:52:14 [情報] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [警告] Forced host server pvp is not defined
+15:52:14 [情報] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:acb85e3:1871 by SpigotMC
+15:52:14 [情報] Listening on /0.0.0.0:37564
+15:52:49 [情報] [/127.0.0.1:62470] <-> InitialHandler has connected
+15:52:50 [情報] [akikukeo] disconnected with: §f§cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+15:52:50 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:54:35 [情報] [/127.0.0.1:62673] <-> InitialHandler has connected
+15:54:36 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:54:36 [情報] Netty is not using direct IO buffers.
+
+15:54:44 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:54:44 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:54:44 [情報] [/127.0.0.1:62709] <-> InitialHandler has pinged
+15:54:49 [情報] [akikukeo,/[0:0:0:0:0:0:0:1]:62726] <-> InitialHandler has connected
+15:54:49 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:55:24 [情報] [/127.0.0.1:62787] <-> InitialHandler has pinged
+15:55:24 [情報] [akikukeo] -> UpstreamBridge has disconnected
+15:55:24 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:55:35 [情報] [/[0:0:0:0:0:0:0:1]:62809] <-> InitialHandler has pinged
+15:55:36 [情報] [rame8,/[0:0:0:0:0:0:0:1]:62810] <-> InitialHandler has connected
+15:55:37 [情報] [rame8] <-> ServerConnector [lobby] has connected
+15:55:37 [情報] [akikukeo,/[0:0:0:0:0:0:0:1]:62816] <-> InitialHandler has connected
+15:55:38 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+15:55:46 [情報] [akikukeo] <-> ServerConnector [main] has connected
+15:55:47 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+15:55:50 [情報] [rame8] <-> ServerConnector [main] has connected
+15:55:50 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+16:04:47 [情報] [/127.0.0.1:63734] <-> InitialHandler has pinged
+16:04:47 [情報] [akikukeo] -> UpstreamBridge has disconnected
+16:04:47 [情報] [akikukeo] <-> DownstreamBridge <-> [main] has disconnected
+16:04:49 [情報] [akikukeo,/127.0.0.1:63736] <-> InitialHandler has connected
+16:04:49 [情報] [akikukeo] <-> ServerConnector [lobby] has connected
+16:04:56 [情報] [akikukeo] <-> ServerConnector [main] has connected
+16:04:56 [情報] [akikukeo] <-> DownstreamBridge <-> [lobby] has disconnected
+16:45:37 [情報] [rame8] <-> ServerConnector [lobby] has connected
+16:45:37 [情報] [rame8] <-> DownstreamBridge <-> [main] has disconnected
+16:47:51 [警告] [rame8] -> UpstreamBridge - SocketException: Connection reset
+16:47:51 [情報] [rame8] disconnected with: §f§fSocketException : Connection reset @ sun.nio.ch.SocketChannelImpl:401
+16:47:51 [情報] [rame8] <-> DownstreamBridge <-> [lobby] has disconnected
+16:47:51 [情報] [rame8] -> UpstreamBridge has disconnected
+16:48:22 [情報] §cCommand not found
+16:49:34 [情報] [akikukeo] -> UpstreamBridge has disconnected
+16:49:34 [情報] [akikukeo] <-> DownstreamBridge <-> [main] has disconnected
+16:49:34 [情報] [/127.0.0.1:51774] <-> InitialHandler has pinged
+16:50:05 [情報] [/[0:0:0:0:0:0:0:1]:51851] <-> InitialHandler has pinged
+16:51:00 [情報] Closing listener [id: 0x54c73e5d, L:/[0:0:0:0:0:0:0:0]:37564]
+16:51:00 [情報] Closing pending connections
+16:51:00 [情報] Disconnecting 0 connections
+16:51:01 [情報] Saving reconnect locations
+16:51:01 [情報] Disabling plugins
+16:51:01 [情報] Closing IO threads
+16:51:03 [情報] Thank you and goodbye
