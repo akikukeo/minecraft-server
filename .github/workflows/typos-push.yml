@@ -1,0 +1,15 @@
+name: Spell Check with Typos
+on: [push]
+
+jobs:
+  run:
+    name: Spell Check with Typos
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Actions Repository
+      uses: actions/checkout@v4
+
+    - name: Check spelling of file.txt
+      uses: crate-ci/typos@master
+      with:
+        files: ./Doc

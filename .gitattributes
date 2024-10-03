@@ -1,0 +1,2 @@
+*.vb diff=sjis
+*.cs diff=sjis
