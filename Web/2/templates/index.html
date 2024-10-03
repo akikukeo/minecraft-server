@@ -2,19 +2,45 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCON Command Sender</title>
+    <title>仮想CMD</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #output {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+    </style>
 </head>
 <body>
-    <h1>RCON Command Sender</h1>
-    <form action="/send_command" method="post">
-        <input type="text" name="command" placeholder="Enter command" required>
-        <button type="submit">Send Command</button>
+    <h1>仮想CMD</h1>
+    <form id="command-form">
+        <input type="text" id="command" name="command" placeholder="コマンドを入力" required>
+        <button type="submit">実行</button>
     </form>
+    <pre id="output"></pre>
 
-    {% if response %}
-        <h2>Response:</h2>
-        <pre>{{ response }}</pre>
-    {% endif %}
+    <script>
+        $('#command-form').on('submit', function(e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/execute',
+                data: $(this).serialize(),
+                success: function(data) {
+                    $('#output').append(data.output + '\n');
+                    autoScroll(); // オートスクロールを呼び出す
+                }
+            });
+        });
+
+        // オートスクロール関数
+        function autoScroll() {
+            var output = document.getElementById("output");
+            output.scrollTop = output.scrollHeight; // 最新の内容にスクロール
+        }
+    </script>
 </body>
 </html>
