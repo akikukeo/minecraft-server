@@ -17,14 +17,15 @@
 
 
 
-## v0.1.2 | YYYY-MM-DD
+## v0.2.1-beta | 2024-10-03
 ### Added
 - chngelogを追加
 - Townyプラグインを追加
 - Townyチャットを追加
+- MCSSを導入(使用方法は同封README)
 
 ### Changed
-- chcpをNULに変更
+- batのchcpをNULに変更
 - READMEのバージョン変更
 - ドキュメントの整理
 - プラグイン調整
