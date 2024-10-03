@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCON Command Sender</title>
+</head>
+<body>
+    <h1>RCON Command Sender</h1>
+    <form action="/send_command" method="post">
+        <input type="text" name="command" placeholder="Enter command" required>
+        <button type="submit">Send Command</button>
+    </form>
+
+    {% if response %}
+        <h2>Response:</h2>
+        <pre>{{ response }}</pre>
+    {% endif %}
+</body>
+</html>
