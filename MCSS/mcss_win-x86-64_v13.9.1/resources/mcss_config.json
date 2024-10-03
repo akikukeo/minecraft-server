@@ -1,0 +1,91 @@
+{
+  "mcss": {
+    "chatMode": false,
+    "autoScrollConsole": true,
+    "showConsoleStartupHelp": true,
+    "switchToConsole": true,
+    "serverTabsOrder": "NameAscending",
+    "customServerTabsOrder": [],
+    "suppresPingLogs": true,
+    "hideDuplicateLines": false,
+    "autoResetConsole": true,
+    "autoLoadConsole": true,
+    "lastUpdateCheck": "2024-09-30T10:20:13.8491946Z",
+    "serverInactivityKillCounter": 300,
+    "maxTrackedConsoleLines": 250,
+    "consoleFont": "Consolas, 10pt",
+    "consoleFontColor": "244, 244, 244",
+    "customColors": null,
+    "consoleTextEncoding": "SystemDefault",
+    "mcssClosePreference": "HideToSystemTray",
+    "enableUpdates": true,
+    "collapseMainNavigation": false,
+    "dynamicGraphScaling": false,
+    "graphDisplayDuration": "OneMinute",
+    "serverTabDisplayIcon": true,
+    "serverTabDisplayOnlinePlayerCount": false,
+    "serverTabDisplayVersion": false,
+    "serverTabDisplayStatus": true,
+    "hideIp": false,
+    "downloadPlayerHeads": true,
+    "usePlayerHelmHeads": true,
+    "queryPlayerHeadsByUsername": false,
+    "displayIpAsIPv6": false,
+    "telemetry": true,
+    "customZipFileFormat": "[backupname]_[unix]",
+    "globalJavaPathOverride": "",
+    "previousBackupLocation": "C:\\minecraft\\MCserver_byAki\\mcss_win-x86-64_v13.9.1\\backups",
+    "certificateSecret": "§--8¨,(S)+e*5t4_OG;Jq.T8IB$'¨SLv4spD%gàJ)5mJ!aùK=2rRr4*vqçù2",
+    "deleteOldBackupsThreshold": 15,
+    "previousSelectServerFileLocation": null,
+    "serverTelemetryGUID": "f87ae806-36f9-4e4e-afc4-03f9d5ec35fb",
+    "runOnStartup": false,
+    "runSilentlyOnStartup": false,
+    "wrapConsole": false,
+    "enableWebApi": true,
+    "enableWebPanel": true,
+    "enableWebSsl": true,
+    "showRemotePageOnStartup": true,
+    "hideWebApiIntroPage": false,
+    "remoteAccessPort": 25577,
+    "webApiUsers": [
+      {
+        "identifier": "6b66bbae-2b65-4e22-889a-0746107a6e66",
+        "avatarIdentifier": "00000000-0000-0000-0000-000000000000",
+        "username": "akikukeo",
+        "password": "$2a$12$Cqw7ZpOsHtWNads3hyDgA.PkaG1DWJ2zAkZfKNhT4uFoXu68pjKdm",
+        "enabled": true,
+        "isAdmin": true,
+        "createdAt": "2024-09-30T10:19:32.2500667Z",
+        "lastModifiedAt": "2024-09-30T10:19:32.2500667Z",
+        "hasAccessToAllServers": true,
+        "panelSettings": {
+          "panelTheme": 2,
+          "serverRefreshRate": 0,
+          "consoleRefreshRate": 0,
+          "amountOfConsoleLines": 0,
+          "enableAutomaticConsoleScrolling": false,
+          "enableConsoleChatMode": false,
+          "enableDebugging": false,
+          "lastModifiedAt": "0001-01-01T00:00:00"
+        },
+        "customServerAccessList": [],
+        "customServerAuthorizationCatalog": {}
+      }
+    ],
+    "apiKey": [],
+    "potentialInstalledJavaLocations": []
+  },
+  "remote": {
+    "webhooks": []
+  },
+  "savedCommands": [
+    {
+      "name": "Save",
+      "command": "save-all",
+      "color": "82, 128, 226"
+    }
+  ],
+  "serverTypes": [],
+  "version": "2"
+}

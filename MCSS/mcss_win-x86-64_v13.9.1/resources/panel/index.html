@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Remote Panel for MC Server Soft" />
+	<link rel="icon" href="/favicon.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	
+		<link rel="modulepreload" href="/_app/immutable/entry/start.bf487f06.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.95481435.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.7ad99be7.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.f2cb1ae8.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.3c109ba7.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.37e48e79.js">
+</head>
+
+<body>
+	<div>
+			<script>
+				{
+					__sveltekit_fcfyce = {
+						base: "",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.bf487f06.js"),
+						import("/_app/immutable/entry/app.3c109ba7.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "main": {
+    "size": "845, 590",
+    "position": "-39, 566, 1010, 710",
+    "restoreBounds": "-39, 566, 1010, 710",
+    "state": 0
+  },
+  "logReader": "970, 610",
+  "configEditor": "970, 610",
+  "serverPropertiesEditor": "970, 610",
+  "banPlayers": "660, 430",
+  "banIps": "660, 430",
+  "whitelist": "660, 430",
+  "ops": "660, 430"
+}
