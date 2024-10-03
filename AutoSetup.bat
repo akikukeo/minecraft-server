@@ -120,26 +120,26 @@ endlocal
 
     @REM ダウンロードが成功したかを確認
         if not exist %ZIP_FILE% (
-            echo %ERROR_R% ダウンロードに失敗しました。処理を終了します。
+            echo ダウンロードに失敗しました。処理を終了します。
             pause
             exit /b 1
         )  else (
-                echo %LOG_R% ダウンロードが完了しました。
+                echo ダウンロードが完了しました。
         )
 
     @REM tarを使ってZIPファイルを解凍
-        echo %LOG_R% ZIPを展開しています...
+        echo ZIPを展開しています...
         tar -xf %ZIP_FILE%
 
     @REM 展開が成功したかを確認
         if not exist %EXTRACT_DIR% (
-            echo %LOG_R% 展開に失敗しました。処理を終了します。
+            echo 展開に失敗しました。処理を終了します。
             pause
             exit /b 1
         )
 
     @REM ダウンロードしたZIPファイルを削除
-        echo %LOG_R% ZIPを削除しています...
+        echo ZIPを削除しています...
         del %ZIP_FILE%
 
     echo すべてのダウンロードが完了しました。
