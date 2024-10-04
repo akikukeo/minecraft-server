@@ -32,7 +32,7 @@
 
 ## v0.2.1-beta | 2024-10-03
 ### 追加
-- chngelogを追加
+- changelogを追加
 - Townyプラグインを追加
 - Townyチャットを追加
 - MCSSを導入(使用方法は同封README)
