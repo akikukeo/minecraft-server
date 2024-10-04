@@ -1,6 +1,6 @@
 # CHANGELOG - EN
 ### **Translation by a translation machine**
-### **[JP is here!](CHANGELOG.md)**
+### **[JP is here!](..\CHANGELOG.md)**
 
 <!-- ## vhoge | YYYY-MM-DD
 ### Added
@@ -26,12 +26,11 @@
         - Added contributor names and images via contrib.rocks
         - Listed contributor names
         - Other minor fixes
-
 <!-- ### Fixed
-- Bugs or issues that have been fixed.
+- Bugs or issues that have been fixed. -->
 ### Deprecated/Issues
-- Features scheduled for deprecation or not recommended changes.
-### Removed
+- Translation of some documents in English has not been completed.
+<!-- ### Removed
 - Features or elements that have been removed. -->
 
 ## v0.2.2-beta | 2024-10-03
@@ -41,11 +40,11 @@
 ## v0.2.1-beta | 2024-10-03
 ### Added
 - Added changelog
-- Added Towny plugin
-- Added Towny chat
+- Added `Towny` plugin
+- Added `Towny chat`
 - Introduced MCSS (Usage in attached README)
 ### Changed
-- Changed `chcp` in bat files to NUL
+- Changed `chcp` in bat files to `NUL`
 - Updated README version
 - Organized documentation
 - Adjusted plugins

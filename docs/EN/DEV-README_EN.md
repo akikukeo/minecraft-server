@@ -1,9 +1,9 @@
 # Minecraft Server v(hoge)-beta | DEV-README - EN
 ### **Translation by a translation machine**
-### **[JP is here!](DEV-README.md)**
+### **[JP is here!](..\DEV-README.md)**
 
 Hello! This is the developer's README.
-[一般向けはコチラ！](README.md)
+[README](README_EN.md)
 
 ## Environment
 <img src="https://img.shields.io/badge/MC%20Server%20Soft-v13.9.1-4FC08D.svg?logo=&style=popout">

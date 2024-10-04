@@ -1,8 +1,8 @@
 # Minecraft Server v(hoge)-beta | README - EN
 ### **Translation by a translation machine**
-### **[JP is here!](README.md)**
+### **[JP is here!](..\README.md)**
 
-Thank you for checking this out. This README is created for general participants and others. Developers should also refer to the [Developer README](DEV-README.md).
+Thank you for checking this out. This README is created for general participants and others. Developers should also refer to the [Developer README](DEV-README_EN.md).
 
 ## Environment
 <img src="https://img.shields.io/badge/Java-21.0.1%20LTS-007396.svg?logo=java&style=popout">
@@ -23,7 +23,7 @@ Thank you for checking this out. This README is created for general participants
 
 This server is built on Paper and operates by connecting with BungeeCord.
 
-### The changelog can be found [**here!**](CHANGELOG.md)
+### The changelog can be found [**here!**](CHANGELOG_EN.md)
 
 ~~Java version allows players to join even if they are on a different version thanks to plugins like ViaVersion. Work is currently being done for Bedrock Edition. Below is a table of supported versions.~~
 
@@ -55,7 +55,7 @@ TownyChat-0.116.jar
 
 ## Server Structure (Simplified)
 ### This is a simplified architecture diagram.
-For details, please refer to [DEV-README.md](DEV-README.md).
+For details, please refer to [DEV-README.md](DEV-README_EN.md).
 <!-- ![Simplified Architecture Diagram](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666) -->
 <p><img src="https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666" width="550"></p>
 
