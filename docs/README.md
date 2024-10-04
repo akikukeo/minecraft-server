@@ -59,3 +59,14 @@ TownyChat-0.116.jar
 ### 簡略した構成図になります。
 詳しくは[DEV-README.md](DEV-README)をご覧ください。
 ![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666)
+
+## コントリビューター
+ご協力ありがとうございます。この場にてお名前を掲載いたします。
+<a href="https://github.com/akikukeo/minecraft-server/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=akikukeo/minecraft-server" />
+  <!-- Made with [contrib.rocks](https://contrib.rocks). -->
+</a>
+
+@akikukeo
+@takkun2355
+@zenebore
