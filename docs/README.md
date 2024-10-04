@@ -5,12 +5,20 @@
 
 ## 環境
 <img src="https://img.shields.io/badge/Java-21.0.1%20LTS-007396.svg?logo=java&style=popout">
+
+> [!IMPORTANT]
+> Javaのバージョンに注意！
+> 1.21.1はJava21!
+
 <img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=popout">
 
 ### 主な使用技術
 <img src="https://img.shields.io/badge/-BungeeCord-4FC08D.svg?logo=&style=popout">
 <img src="https://img.shields.io/badge/Paper-%204514c71%2096-4FC08D.svg?logo=&style=popout">
 <img src="https://img.shields.io/badge/MC%20Server%20Soft-v13.9.1-4FC08D.svg?logo=&style=popout">
+
+> [!TIP]
+> MC Server Softはなくても動作可能！
 
 当サーバーは、Paperで構築し、BungeeCordで繋ぐことにより動作しています。  
 
@@ -23,7 +31,9 @@
 ##### ViaVersion公式サイトより引用
 ![ViaVersionバージョン対応表](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090)
 
+> [!WARNING]
 > ViaVersionは現在作業中です！！
+> 同じバージョンでないと参加できません！！
 
 ### 当サーバーは1.21.1で構築されています！
 アクセス用のipについてはDiscordサーバーをご覧ください。
