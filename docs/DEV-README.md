@@ -1,6 +1,6 @@
 # minecraft server v(hoge)-beta | DEV-README
 こんにちは。こちらは、デベロッパー向けのREADMEとなります。
-[一般向けはコチラ！](README)
+[一般向けはコチラ！](README.md)
 
 ## 環境
 <img src="https://img.shields.io/badge/MC%20Server%20Soft-v13.9.1-4FC08D.svg?logo=&style=popout">
