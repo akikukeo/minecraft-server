@@ -29,7 +29,7 @@ This server is built on Paper and operates by connecting with BungeeCord.
 
 ##### Quoted from the official ViaVersion website
 <!-- ![ViaVersion Version Compatibility Chart](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090) -->
-<p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="500" height="350"></p>
+<p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="550"></p>
 
 > [!WARNING]
 > ViaVersion is currently a work in progress!!
