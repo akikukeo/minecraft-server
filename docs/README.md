@@ -1,12 +1,22 @@
-# minecraft serverv0.2.2-beta | README
+# minecraft server v(hoge)-beta | README
 
 ご覧いただきありがとうございます。このREADMEは一般参加者などに向けて作成しています。開発者の方は合わせて[開発者README](DEV-README)をご覧ください。
 
 
-## 環境について
-当サーバーは、PaperMCで構築し、BungeeCordで繋ぐことにより動作しています。  
-MCSSを導入しました！使用方法は同封のREADMEをご覧ください。  
-変更履歴は[コチラ!](CHANGELOG)
+## 環境
+<img src="https://img.shields.io/badge/MC%20Server%20Soft-v13.9.1-4FC08D.svg?logo=&style=popout">
+<img src="https://img.shields.io/badge/Java-21.0.1%20LTS-007396.svg?logo=java&style=popout">
+<img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=popout">
+
+### 主な使用技術
+<img src="https://img.shields.io/badge/-BungeeCord-4FC08D.svg?logo=&style=popout">
+<img src="https://img.shields.io/badge/Paper-%204514c71%2096-4FC08D.svg?logo=&style=popout">
+
+当サーバーは、Paperで構築し、BungeeCordで繋ぐことにより動作しています。  
+
+### 変更履歴は[**コチラ!**](CHANGELOG.md)
+
+
 ~~java版はViaVersion等プラグインによりサーバーと違うバージョンでも参加が可能となっています。統合版は現在対応作業を行っています。
 以下は対応済みバージョンの表となります。~~ 
 
