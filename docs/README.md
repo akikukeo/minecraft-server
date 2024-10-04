@@ -61,12 +61,13 @@ TownyChat-0.116.jar
 ![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666)
 
 ## コントリビューター
-ご協力ありがとうございます。この場にてお名前を掲載いたします。
+ご協力ありがとうございます。この場にてお名前を掲載いたします。  
+
 <a href="https://github.com/akikukeo/minecraft-server/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=akikukeo/minecraft-server" />
+  <img src="https://contrib.rocks/image?repo=akikukeo/minecraft-server"width="230" />
   <!-- Made with [contrib.rocks](https://contrib.rocks). -->
 </a>
 
-@akikukeo
-@takkun2355
-@zenebore
+@akikukeo  
+@takkun2355  
+@zenebore  
