@@ -67,7 +67,7 @@ For details, please refer to [DEV-README.md](DEV-README.md).
   <!-- Made with [contrib.rocks](https://contrib.rocks). -->
 </a>
 
-**From top left:**　　
+**From top left:**  
 [@akikukeo](https://github.com/akikukeo)  
 [@takkun2355](https://github.com/takkun2355)  
 [@zenebore](https://github.com/zenebore)
