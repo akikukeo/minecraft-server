@@ -1,4 +1,6 @@
 # CHANGELOG
+### **[EN is here!](CHANGELOG_EN.md)**
+
 <!-- ## vhoge | YYYY-MM-DD
 ### 追加
 - 新しく追加された機能や要素。
