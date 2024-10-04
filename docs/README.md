@@ -58,4 +58,18 @@ TownyChat-0.116.jar
 ## サーバーの仕組み(簡略)
 ### 簡略した構成図になります。
 詳しくは[DEV-README.md](DEV-README)をご覧ください。
-![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666)
+<!-- ![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666) -->
+<p><img src="https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666" width="550"></p>
+
+## コントリビューター
+**ご協力ありがとうございます。この場にて掲載いたします。**  
+
+<a href="https://github.com/akikukeo/minecraft-server/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=akikukeo/minecraft-server"width="230" />
+  <!-- Made with [contrib.rocks](https://contrib.rocks). -->
+</a>
+
+**左上から**
+[@akikukeo](https://github.com/akikukeo)
+[@takkun2355](https://github.com/takkun2355)
+[@zenebore](https://github.com/zenebore)
