@@ -36,6 +36,7 @@ This server is built on Paper and operates by connecting with BungeeCord.
 > You cannot join unless you are on the same version!!
 
 ### This server is built on 1.21.1!
+## How do I connect?
 > [!TIP]
 > See the Discord server for information on ip for access.
 > Q. What are ip and port? How do I join, I can't enter by typing ip?
