@@ -29,7 +29,8 @@
 以下は対応済みバージョンの表となります。~~ 
 
 ##### ViaVersion公式サイトより引用
-![ViaVersionバージョン対応表](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090)
+<!-- ![ViaVersionバージョン対応表](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090) -->
+<p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="500" height="350"></p>
 
 > [!WARNING]
 > ViaVersionは現在作業中です！！
