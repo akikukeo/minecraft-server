@@ -1,12 +1,21 @@
-# minecraft serverv0.2.2beta | DEV-README
+# minecraft server v(hoge)-beta | DEV-README
 こんにちは。こちらは、デベロッパー向けのREADMEとなります。
-[一般向けはコチラ！](https://github.com/akikukeo/minecraft-server/blob/main/README.md)
+[一般向けはコチラ！](README)
+
+## 環境
+<img src="https://img.shields.io/badge/MC%20Server%20Soft-v13.9.1-4FC08D.svg?logo=&style=popout">
+<img src="https://img.shields.io/badge/Java-21.0.1%20LTS-007396.svg?logo=java&style=popout">
+<img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=popout">
+
+### 主な使用技術
+<img src="https://img.shields.io/badge/-BungeeCord-4FC08D.svg?logo=&style=popout">
+<img src="https://img.shields.io/badge/Paper-%204514c71%2096-4FC08D.svg?logo=&style=popout">
 
 ## 使用ポート｜ip
 ### <各サーバー>
-### lobby:
+### lobby: Paper
     port: 25571
-### main:
+### main: Paper
     port: 25572
 ---
 ### <アクセス用>

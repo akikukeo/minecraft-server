@@ -2,7 +2,7 @@
 ## 動作確認済みバージョン
 - git version 2.45.2.windows.1
 - gitLFS v3.5.1
-- MCserverSoft v13.8.0.zip
+- MCserverSoft v13.9.1.zip
 
 ## インストール
 ZIPを展開してexeを置き換える
