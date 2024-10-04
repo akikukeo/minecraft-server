@@ -1,11 +1,12 @@
 # minecraft serverv0.2.2-beta | README
 
-ご覧いただきありがとうございます。このREADMEは一般参加者などに向けて作成しています。開発者の方は合わせて[DEV-README.md](https://github.com/akikukeo/minecraft-server/blob/main/Doc/DEV-README.md)をご覧ください。
+ご覧いただきありがとうございます。このREADMEは一般参加者などに向けて作成しています。開発者の方は合わせて[開発者README](DEV-README)をご覧ください。
 
 
 ## 環境について
 当サーバーは、PaperMCで構築し、BungeeCordで繋ぐことにより動作しています。  
 MCSSを導入しました！使用方法は同封のREADMEをご覧ください。  
+変更履歴は[コチラ!](CHANGELOG)
 ~~java版はViaVersion等プラグインによりサーバーと違うバージョンでも参加が可能となっています。統合版は現在対応作業を行っています。
 以下は対応済みバージョンの表となります。~~ 
 
@@ -35,5 +36,5 @@ TownyChat-0.116.jar
 
 ## サーバーの仕組み(簡略)
 ### 簡略した構成図になります。
-詳しくは[DEV-README.md](https://github.com/akikukeo/minecraft-server/blob/main/Doc/DEV-README.md)をご覧ください。
+詳しくは[DEV-README.md](DEV-README)をご覧ください。
 ![簡略構成図](https://github.com/user-attachments/assets/560aac12-9510-4038-8f71-d980e1319666)
