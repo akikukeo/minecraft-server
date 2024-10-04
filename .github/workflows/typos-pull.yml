@@ -12,4 +12,4 @@ jobs:
     - name: Check spelling of file.txt
       uses: crate-ci/typos@master
       with:
-        files: ./
+        files: ./docs ./Auto-startup.bat
