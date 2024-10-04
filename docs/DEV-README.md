@@ -1,5 +1,5 @@
 # minecraft server v(hoge)-beta | DEV-README
-### **[EN is here!](EN\DEV-README_EN.md)**
+### **[EN is here!](EN/DEV-README_EN.md)**
 
 こんにちは。こちらは、デベロッパー向けのREADMEとなります。
 [一般向けはコチラ！](README.md)

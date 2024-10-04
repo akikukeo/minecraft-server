@@ -1,6 +1,6 @@
 # CHANGELOG - EN
 ### **Translation by a translation machine**
-### **[JP is here!](..\CHANGELOG.md)**
+### **[JP is here!](../CHANGELOG.md)**
 
 <!-- ## vhoge | YYYY-MM-DD
 ### Added

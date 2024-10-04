@@ -1,5 +1,5 @@
 # CHANGELOG
-### **[EN is here!](EN\CHANGELOG_EN.md)**
+### **[EN is here!](EN/CHANGELOG_EN.md)**
 
 <!-- ## vhoge | YYYY-MM-DD
 ### 追加

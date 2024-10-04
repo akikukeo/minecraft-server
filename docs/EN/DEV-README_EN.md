@@ -1,6 +1,6 @@
 # Minecraft Server v(hoge)-beta | DEV-README - EN
 ### **Translation by a translation machine**
-### **[JP is here!](..\DEV-README.md)**
+### **[JP is here!](../DEV-README.md)**
 
 Hello! This is the developer's README.
 [README](README_EN.md)
