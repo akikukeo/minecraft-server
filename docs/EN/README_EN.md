@@ -36,7 +36,16 @@ This server is built on Paper and operates by connecting with BungeeCord.
 > You cannot join unless you are on the same version!!
 
 ### This server is built on 1.21.1!
-For the IP for access, please check the Discord server.
+> [!TIP]
+> See the Discord server for information on ip for access.
+> Q. What are ip and port? How do I join, I can't enter by typing ip?
+> A. Put port after ip. Note the **{:}! **
+> ```
+> Example: ip: Thisisatestip
+> port: 12345
+> Connect to 'Thisisatestip:12345'
+> ```
+
 
 ---
 
