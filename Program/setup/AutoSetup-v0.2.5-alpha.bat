@@ -120,10 +120,10 @@
 
     @REM set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/heads/main.zip
 
-    set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.2-beta.tar.gz
+    set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.5-alpha.tar.gz
 
-    set ZIP_FILE=.\minecraft-server-main.tar.gz
-    set EXTRACT_DIR=.\minecraft-server-0.2.2-beta
+    set ZIP_FILE=.\server-v0.2.5-alpha.tar.gz
+    set EXTRACT_DIR=.\server-v0.2.5-alpha.tar.gz
 
         md install
         cd install
