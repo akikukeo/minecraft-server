@@ -14,7 +14,7 @@
 ### Removed
 - Features or elements that have been removed. -->
 
-## v(hoge)-beta | YYYY-MM-DD
+## v0.2.3-beta | 2024-10-05
 ### Added
 - Added `docs` directory
 ### Changed

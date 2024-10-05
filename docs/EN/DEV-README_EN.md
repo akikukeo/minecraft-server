@@ -1,4 +1,4 @@
-# Minecraft Server v(hoge)-beta | DEV-README - EN
+# Minecraft Server | DEV-README - EN
 ### **Translation by a translation machine**
 ### **[JP is here!](../DEV-README.md)**
 
