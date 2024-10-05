@@ -1,4 +1,4 @@
-# minecraft server v(hoge)-beta | README
+# minecraft server | README
 ### **[EN is here!](EN/README_EN.md)**
 
 ご覧いただきありがとうございます。このREADMEは一般参加者などに向けて作成しています。開発者の方は合わせて[開発者README](DEV-README.md)をご覧ください。
