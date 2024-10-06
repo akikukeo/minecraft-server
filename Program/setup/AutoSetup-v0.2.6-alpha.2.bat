@@ -122,7 +122,7 @@
             set CURL_S=.\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin
             @REM set CURL_CMD=C:\minecraft\minecraft-server\Program\setup\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin\curl.exe
             set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.6-alpha.1.tar.gz
-            set FILE=.\server-v0.2.5-alpha.tar.gz
+            set FILE=.\server-v0.2.6-alpha.1.tar.gz
             set EXTRACT_DIR=.\server-v0.2.5-alpha.tar.gz
         
             @REM CURLを絶対パスで取得
@@ -194,49 +194,44 @@ pushd "%~dp0"
             echo -----------------------------------------
             echo installはすでに存在します！
 
-            echo 削除しますか？慎重に実行してください
-            echo install内のファイル,フォルダはすべて削除されます。この操作は取り消すことはできません。
+            @REM echo 削除しますか？慎重に実行してください
+            @REM echo install内のファイル,フォルダはすべて削除されます。この操作は取り消すことはできません。
             echo -----------------------------------------
             echo.
-            goto question
+            @REM goto question
             
             pause
+            exit /b 1
         )
 
-    :question
-    set /p anser="処理を実行しますか？ (Y/N)"
+@REM     :question
+@REM     set /p anser="処理を実行しますか？ (Y/N)"
 
-    if /i %anser%==y (
-        del install
-            if "!errorlevel!"=="0"(
-                echo 正常に削除が完了しました
-
-            ) else (
-                echo 削除に失敗しました...
-                echo 処理を終了します。
-                popd
-                pause
-                exit /b 1
-            )
-            echo 削除しました！
-            echo.
-            goto warpmain
-
-    ) else if /i %anser%==n (
-        echo 処理を中止します！
-        echo.
-        popd
-        pause
-        exit /b 1
+@REM     if /i %anser%==y (
+@REM         goto deltedinstall_anser
+@REM         :anser_afterdel
+@REM         echo 削除しました！
+@REM         echo.
+@REM         goto warpmain
+@REM     ) else if /i %anser%==n (
+@REM         echo 処理を中止します！
+@REM         echo.
+@REM         popd
+@REM         pause
+@REM         exit /b 1
         
-    ) else (
-        echo 入力が不正です。^(Y/N^)で入力をお願いします。
-        echo.
-        goto question
-    )
+@REM     ) else (
+@REM         echo 入力が不正です。^(Y/N^)で入力をお願いします。
+@REM         echo.
+@REM         goto question
+@REM     )
 
-:deltedinstall-anser
-
+@REM :deltedinstall_anser
+@REM cd
+@REM pause
+@REM del install
+@REM goto anser_afterdel
+    
         
 :warpmain
     @REM curlを使ってリポジトリをダウンロード
@@ -244,7 +239,6 @@ pushd "%~dp0"
         echo 該当ファイルダウンロード...
 
         %CURL_CMD% -L -o %FILE% %GITHUB_URL%
-    pause
     @REM ダウンロードが成功したかを確認
 
         if not exist %FILE% (
