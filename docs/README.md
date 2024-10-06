@@ -1,4 +1,4 @@
-# minecraft server | README
+# Minecraft Server | README
 <!-- tagの設定前にしっかりmergeしたか確認！！！！！！ -->
 ### **[EN is here!](EN/README_EN.md)**
 
