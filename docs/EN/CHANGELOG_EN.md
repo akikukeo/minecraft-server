@@ -12,7 +12,8 @@
 ### Deprecated/Issues
 - Features scheduled for deprecation or not recommended changes.
 ### Removed
-- Features or elements that have been removed. -->
+- Features or elements that have been removed. 
+-->
 
 ## v0.2.3-beta | 2024-10-05
 ### Added

@@ -1,4 +1,5 @@
 # Minecraft Server | README - EN
+<!-- tagの設定前にしっかりmergeしたか確認！！！！！！ -->
 ### **Translation by a translation machine**
 ### **[JP is here!](../README.md)**
 
@@ -27,12 +28,13 @@ This server is built on Paper and operates by connecting with BungeeCord.
 
 ~~Java version allows players to join even if they are on a different version thanks to plugins like ViaVersion. Work is currently being done for Bedrock Edition. Below is a table of supported versions.~~
 
-##### Quoted from the official ViaVersion website
-<!-- ![ViaVersion Version Compatibility Chart](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090) -->
-<p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="550"></p>
+
 
 > [!WARNING]
-> ViaVersion is currently a work in progress!!
+> ##### Quoted from the official ViaVersion website
+> <!-- ![ViaVersion Version Compatibility Chart](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090) -->
+> <p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="550"></p>
+> ViaVersion is currently a work in progress!!  <br>
 > You cannot join unless you are on the same version!!
 
 ### This server is built on 1.21.1!
