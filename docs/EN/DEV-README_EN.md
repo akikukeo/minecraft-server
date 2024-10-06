@@ -1,4 +1,5 @@
 # Minecraft Server | DEV-README - EN
+<!-- tagの設定前にしっかりmergeしたか確認！！！！！！ -->
 ### **Translation by a translation machine**
 ### **[JP is here!](../DEV-README.md)**
 
