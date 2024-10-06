@@ -27,15 +27,15 @@
 ### 変更履歴は[**コチラ!**](CHANGELOG.md)
 
 
-~~java版はViaVersion等プラグインによりサーバーと違うバージョンでも参加が可能となっています。統合版は現在対応作業を行っています。
-以下は対応済みバージョンの表となります。~~ 
 
-##### ViaVersion公式サイトより引用
-<!-- ![ViaVersionバージョン対応表](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090) -->
-<p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="550"></p>
 
 > [!WARNING]
-> ViaVersionは現在作業中です！！
+> ~~java版はViaVersion等プラグインによりサーバーと違うバージョンでも参加が可能となっています。統合版は現在対応作業を行っています。
+以下は対応済みバージョンの表となります。~~ 
+> ##### ViaVersion公式サイトより引用
+> <!-- ![ViaVersionバージョン対応表](https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090) -->
+> <p><img src="https://github.com/user-attachments/assets/f5b2a55f-a59f-49b3-8048-c80d1a0d1090" width="550"></p>
+> ViaVersionは現在作業中です!!  <br>
 > 同じバージョンでないと参加できません！！
 
 ### 当サーバーは1.21.1で構築されています！
