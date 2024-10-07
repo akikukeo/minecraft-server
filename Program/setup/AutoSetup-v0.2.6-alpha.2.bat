@@ -113,96 +113,102 @@
 
 
 @REM いつもの
-    echo off 
-    chcp 65001 > NUL
-    setlocal enabledelayedexpansion
-    pushd "%~dp0"
-    
-        @REM =============================================
-            set CURL_S=.\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin
-            @REM set CURL_CMD=C:\minecraft\minecraft-server\Program\setup\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin\curl.exe
-            set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.6-alpha.1.tar.gz
-            set FILE=.\server-v0.2.6-alpha.1.tar.gz
-            set EXTRACT_DIR=.\server-v0.2.5-alpha.tar.gz
-        
-            @REM CURLを絶対パスで取得
-                cd %CURL_S%
-                for /f "usebackq delims=" %%A in (`dir /b /s /a-d .^| findstr .exe`) do set CURL_CMD=%%A
-                echo %CURL_CMD%
-                popd
-        @REM =============================================
+echo off 
+chcp 65001 > NUL
+setlocal enabledelayedexpansion
+pushd "%~dp0"
 
-@REM ビット数を測定する。^(curlの都合上^)
-    if "%PROCESSOR_ARCHITECTURE%" equ "x86" (
-        echo.
-        echo -----------------------------------------
-        echo この端末の OS のビット数は "32bit" です。
-        echo 32bitには対応していません。
-        echo 処理を終了します。
-        echo -----------------------------------------
-        pause
-        exit /b 1
-    ) else (
-        echo.
-        echo -----------------------------------------
-        echo この端末の OS のビット数は "64bit" です。
-        echo -----------------------------------------
-        echo.
-    )
-    @REM powershell -NoProfile -ExecutionPolicy Unrestricted .\hogehoge.ps1
+@REM =============================================
+set CURL_S=.\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin
+set CURL_ZIP=curl-8.10.1_3-win64-mingw.zip
+@REM set CURL_CMD=C:\minecraft\minecraft-server\Program\setup\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin\curl.exe
+set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.6-alpha.1.tar.gz
+set FILE=.\server-v0.2.6-alpha.1.tar.gz
+set EXTRACT_DIR=.\server-v0.2.5-alpha.tar.gz
 
-@REM curlあるかチェック
-    @REM curl.exeでバージョンを確認することによって正常に読み込めてるか確認する
-    %CURL_CMD% --version
+
+
+@REM CURLを絶対パスで取得
+cd %CURL_S%
+for /f "usebackq delims=" %%A in (`dir /b /s /a-d .^| findstr .exe`) do set CURL_CMD=%%A
+echo %CURL_CMD%
+popd
+@REM =============================================
+
+@REM 実行可能化を測定する。^(curlとtarの都合上^)
+tar --help
+
+pause
+if "%PROCESSOR_ARCHITECTURE%" equ "x86" (
     echo.
     echo -----------------------------------------
+    echo この端末の OS のビット数は "32bit" です。
+    echo 32bitには対応していません。
+    echo 処理を終了します。
+    echo -----------------------------------------
+    pause
+    exit /b 1
 
-        echo errorlevel==!errorlevel!
+) else (
+    echo.
+    echo -----------------------------------------
+    echo この端末の OS のビット数は "64bit" です。
+    echo -----------------------------------------
+    echo.
+)
+@REM powershell -NoProfile -ExecutionPolicy Unrestricted .\hogehoge.ps1
 
-        if "!errorlevel!"=="0" (
-            echo 正常にcurlの読み込みが完了しました!
-            echo -----------------------------------------
-            echo.
-            
-        ) else (
-            echo curlの読み込みに失敗しました...
-            echo 処理を終了します。
-            echo -----------------------------------------
-            echo.
-            pause
-            exit /b 1
+@REM curlあるかチェック
+@REM curl.exeでバージョンを確認することによって正常に読み込めてるか確認する
+%CURL_CMD% --version
+echo.
+echo -----------------------------------------
 
-        )
+echo errorlevel==!errorlevel!
 
-        echo 一時的に同封curlを使用します。
+if "!errorlevel!"=="0" (
+    echo 正常にcurlの読み込みが完了しました!
+    echo -----------------------------------------
+    echo.
+    
+) else (
+    echo curlの読み込みに失敗しました...
+    echo 処理を終了します。
+    echo -----------------------------------------
+    echo.
+    pause
+    exit /b 1
+)
 
-        echo パスは通しません。
+    echo 一時的に同封curlを使用します。
+
+    echo パスは通しません。
         
 
 @REM リポジトリダウンロード
 pushd "%~dp0"
 
-    title 自動ダウンロードシステム実行中...
-    @REM installディレクトリが既に存在するか確認
-        if not exist install (
-            md install
-            cd install
-            goto warpmain
+title 自動ダウンロードシステム実行中...
+@REM installディレクトリが既に存在するか確認
+if not exist install (
+    md install
+    cd install
+    goto warpmain
 
-        ) else (
-            echo.
-            echo -----------------------------------------
-            echo installはすでに存在します！
+) else (
+    echo.
+    echo -----------------------------------------
+    echo installはすでに存在します！
 
-            @REM echo 削除しますか？慎重に実行してください
-            @REM echo install内のファイル,フォルダはすべて削除されます。この操作は取り消すことはできません。
-            echo -----------------------------------------
-            echo.
-            @REM goto question
-            
-            pause
-            exit /b 1
-        )
+    @REM echo 削除しますか？慎重に実行してください
+    @REM echo install内のファイル,フォルダはすべて削除されます。この操作は取り消すことはできません。
+    echo -----------------------------------------
+    echo.
+    @REM goto question
+    
+    pause
+    exit /b 1
+)
 
 @REM     :question
 @REM     set /p anser="処理を実行しますか？ (Y/N)"
@@ -234,68 +240,69 @@ pushd "%~dp0"
     
         
 :warpmain
-    @REM curlを使ってリポジトリをダウンロード
+@REM curlを使ってリポジトリをダウンロード
 
-        echo 該当ファイルダウンロード...
+echo 該当ファイルダウンロード...
 
-        %CURL_CMD% -L -o %FILE% %GITHUB_URL%
-    @REM ダウンロードが成功したかを確認
+%CURL_CMD% -L -o %FILE% %GITHUB_URL%
+@REM ダウンロードが成功したかを確認
 
-        if not exist %FILE% (
-            echo.
-            echo -----------------------------------------
-            echo ダウンロードに失敗しました。処理を終了します。
-            echo -----------------------------------------
-            echo.
-            popd
-            pause
-            exit /b 1
-
-        )  else (
-            echo.
-            echo -----------------------------------------
-            echo ダウンロードが完了しました。
-            echo -----------------------------------------
-            echo.
-        )
-
-    @REM tarを使ってZIPファイルを解凍
-        echo.
-        echo -----------------------------------------
-        echo %FILE%を展開しています...これには数分から数十分かかります...
-        echo -----------------------------------------
-        echo.
-        tar -xf %FILE%
-
-    @REM 展開が成功したかを確認
-        if not exist %EXTRACT_DIR% (
-            echo.
-            echo -----------------------------------------
-            echo 展開に失敗しました。処理を終了します。
-            echo -----------------------------------------
-            echo.
-            popd
-            pause
-            exit /b 1
-        )
-
-    @REM ダウンロードしたZIPファイルを削除
-        echo.
-        echo -----------------------------------------
-        echo tarを削除しています...
-        echo -----------------------------------------
-        echo.
-        del %FILE%
-            if "!errorlevel!"=="0"(
-                echo 正常に削除が完了しました
-            ) else (
-                echo 削除に失敗しました...
-                echo 処理を終了します。
-                popd
-                pause
-                exit /b 1
-            )
-
+if not exist %FILE% (
+    echo.
+    echo -----------------------------------------
+    echo ダウンロードに失敗しました。処理を終了します。
+    echo -----------------------------------------
+    echo.
     popd
-    endlocal
-    exit /b 0
+    pause
+    exit /b 1
+
+)  else (
+    echo.
+    echo -----------------------------------------
+    echo ダウンロードが完了しました。
+    echo -----------------------------------------
+    echo.
+)
+
+@REM tarを使ってZIPファイルを解凍
+echo.
+echo -----------------------------------------
+echo %FILE%を展開しています...これには数分から数十分かかります...
+echo -----------------------------------------
+echo.
+tar -xf %FILE%
+
+@REM 展開が成功したかを確認
+if not exist %EXTRACT_DIR% (
+    echo.
+    echo -----------------------------------------
+    echo 展開に失敗しました。処理を終了します。
+    echo -----------------------------------------
+    echo.
+    popd
+    pause
+    exit /b 1
+)
+
+@REM ダウンロードしたZIPファイルを削除
+echo.
+echo -----------------------------------------
+echo tarを削除しています...
+echo -----------------------------------------
+echo.
+del %FILE%
+
+if "!errorlevel!"=="0"(
+    echo 正常に削除が完了しました
+) else (
+    echo 削除に失敗しました...
+    echo 処理を終了します。
+    popd
+    pause
+    exit /b 1
+)
+
+popd
+endlocal
+exit /b 0
