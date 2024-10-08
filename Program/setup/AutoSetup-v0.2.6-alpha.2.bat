@@ -1,6 +1,6 @@
 @REM set oppython=false
 @REM if "oppython"=="true" (
-@REM     @REM pytyon埋め込み版の構成
+@REM     @REM python埋め込み版の構成
 @REM         chcp 65001 > NUL
 @REM         @echo off
 @REM         @REM https://github.com/Zuntan03/EasyBertVits2 より引用・改変
