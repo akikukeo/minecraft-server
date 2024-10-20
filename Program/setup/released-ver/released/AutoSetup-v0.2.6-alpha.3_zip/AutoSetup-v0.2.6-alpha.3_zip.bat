@@ -121,10 +121,10 @@
         @REM =============================================
             set CURL_S=.\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin
             set PS_CMD=PowerShell -Version 5.1 -ExecutionPolicy Bypass
-            set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.6-alpha.zip
-            set FILE=.\server-v0.2.6-alpha.zip
-            set FILE_N=server-v0.2.6-alpha
-            set EXTRACT_DIR=.\server-v0.2.6-alpha.zip
+            set GITHUB_URL=https://github.com/akikukeo/minecraft-server/archive/refs/tags/v0.2.6-alpha.1.zip
+            set FILE=.\server-v0.2.6-alpha.1.zip
+            set FILE_N=server-v0.2.6-alpha.1
+            set EXTRACT_DIR=.\server-v0.2.6-alpha.1.zip
             @REM set CURL_CMD=C:\minecraft\minecraft-server\Program\setup\curl-8.10.1_3-win64-mingw\curl-8.10.1_3-win64-mingw\bin\curl.exe
 
             @REM CURLを絶対パスで取得
